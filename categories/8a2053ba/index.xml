@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dual task on Aoki, Kota</title>
+    <link>https://akotokia.github.io/categories/8a2053ba/</link>
+    <description>Recent content in dual task on Aoki, Kota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://akotokia.github.io/categories/8a2053ba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</title>
+      <link>https://akotokia.github.io/publications/aoki2019edl/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/publications/aoki2019edl/</guid>
+      <description>[bib] [doi]
+ Objective: The dual-task paradigm is a promising procedure for estimating cognitive status, and may also be collaterally used to reduce cognitive decline and prevent dementia. In this research, we use the Mini-Mental State Exam (MMSE) to assess cognitive status in the elderly as a reference, and investigate a potential of using machine learning for early detecting cognitive impairment in elderly. Methods: Although many studies have suggested that dual-task performance, in which participants perform a cognitive task while walking, is associated with cognition, they only considered the correlation between cognitive parameters and simple gait feature, such as gait speed, through statistical analysis.</description>
+    </item>
+    
+    <item>
+      <title>Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</title>
+      <link>https://akotokia.github.io/publications/zhou2019aed/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/publications/zhou2019aed/</guid>
+      <description>[bib]</description>
+    </item>
+    
+    <item>
+      <title>Growth Assessment of School-Age Children from Dual-Task Observation</title>
+      <link>https://akotokia.github.io/publications/zhou2018gas/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/publications/zhou2018gas/</guid>
+      <description>[bib] [doi]
+ Conventional approaches to the assessment of growth among children involve manual evaluation and treat different aspects of growth status separately. In contrast, this study presents an automated method for assessing growth status that considers various aspects of growth simultaneously. We first applied the dual-task paradigm (where two tasks are performed simultaneously) to collect data on anthropometric, kinematic, and cognitive aspects of growth at the same time. With the collected data on a large number of typically developing individuals, we constructed a statistical model of growth features and ages and also estimated participants&#39; ages using regression analysis.</description>
+    </item>
+    
+    <item>
+      <title>Automatic Collection of Dual-task Human Behavior for Analysis of Cognitive Function</title>
+      <link>https://akotokia.github.io/publications/okura2018acd/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/publications/okura2018acd/</guid>
+      <description>[bib] [doi]
+ The performance of dual task, simultaneously performing two tasks, is a useful measure of a person&amp;rsquo;s cognitive abilities because it creates a heavier load on the brain than single tasks. Large-scale datasets of dual-task behavior are required to quantitatively analyze the relationships among dual-task performance, cognitive functions, and personal attributes such as age. We present an automatic data collection system for dual-task behavior that can be installed in public spaces without an operator in attendance.</description>
+    </item>
+    
+    <item>
+      <title>Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</title>
+      <link>https://akotokia.github.io/publications/zhou2018aed/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/publications/zhou2018aed/</guid>
+      <description>[bib]</description>
+    </item>
+    
+  </channel>
+</rss>
