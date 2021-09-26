@@ -6,7 +6,17 @@
     <description>Recent content in publications on Aoki, Kota</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://akotokia.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://akotokia.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network</title>
+      <link>https://akotokia.github.io/publications/aoki2021pfd/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/publications/aoki2021pfd/</guid>
+      <description>[bib] [doi]
+ This paper describes a deep learning approach to classify physically fatigued and non-fatigued gait cycles via a recurrent neural network (RNN), where each gait cycle is represented as a time series of three-dimensional coordinates of body joints. Gait cycles inherently have large intra-class variations caused by gait stance differences (e.g., which foot is supporting/swinging) at the beginning of each gait cycle, which makes it difficult to identify subtle differences induced by fatigue.</description>
+    </item>
+    
     <item>
       <title>Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</title>
       <link>https://akotokia.github.io/publications/aoki2019edl/</link>

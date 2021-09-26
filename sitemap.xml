@@ -1,198 +1,133 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://akotokia.github.io/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/_e030/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/publications/aoki2021pfd/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/publications/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/_8a20/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://akotokia.github.io/categories/8a2053ba/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aoki2019edl/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://akotokia.github.io/categories/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://akotokia.github.io/publications/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/grushnikov2019tia/</loc>
     <lastmod>2019-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/zhou2019aed/</loc>
     <lastmod>2019-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/zhou2018gas/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/okura2018acd/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/zhou2018aed/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/ishikawa2016cre/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/dechvijankit2016com/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/ishikawa2016btc/</loc>
     <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/boonsiri2016glc/</loc>
     <lastmod>2016-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aotake2016adc/</loc>
     <lastmod>2016-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/im2016isp/</loc>
     <lastmod>2016-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/boonsiri2015mba/</loc>
     <lastmod>2015-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/dechvijankit2015hsc/</loc>
     <lastmod>2015-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/yokoyama2015dma/</loc>
     <lastmod>2015-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/narkbuakaew2014els/</loc>
     <lastmod>2014-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/narkbuakaew2014imk/</loc>
     <lastmod>2014-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/narkbuakaew2014bsc/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/narkbuakaew2014lsi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/im2014lab/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/boonsiri2014smb/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/narkbuakaew2013lsb/</loc>
     <lastmod>2013-09-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/yao2013sin/</loc>
     <lastmod>2013-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/dechvijankit2013osp/</loc>
     <lastmod>2013-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aoki2013vcg/</loc>
     <lastmod>2013-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/dechvijankit2012fwc/</loc>
     <lastmod>2012-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/yao2011pbp/</loc>
     <lastmod>2011-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aoki2011cvp/</loc>
     <lastmod>2011-06-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aoki2009msm/</loc>
     <lastmod>2009-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/kubota2009pmt/</loc>
     <lastmod>2009-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/matsui2007cpt/</loc>
     <lastmod>2007-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aoki2005bis/</loc>
     <lastmod>2005-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/publications/aoki2003aso/</loc>
     <lastmod>2003-07-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akotokia.github.io/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/_e030/_a/</loc>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/_e030/_b/</loc>
+  </url><url>
     <loc>https://akotokia.github.io/tags/</loc>
   </url>
-  
 </urlset>
