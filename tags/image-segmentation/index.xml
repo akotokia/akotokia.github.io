@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aoki, kota – Image segmentation</title>
+    <link>https://akotokia.github.io/tags/image-segmentation/</link>
+    <description>Recent content in Image segmentation on aoki, kota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 13 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/tags/image-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Segmentation-based Illumination Normalization for Face Detection</title>
+      <link>https://akotokia.github.io/blog/proceedings/yao2013sin/</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/yao2013sin/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Yao, M., Aoki, K., and Nagahashi, H. (2013). Segmentation-based Illumination Normalization for Face Detection. &lt;em&gt;Proc. IEEE Int. Workshop Comput. Intell. Appl.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Face detection is an important research topic in the field of computer vision. Illumination problem is one of the most important aspects impeding the effectiveness of face detection. The well known Haar-like face detector developed by Viola and Jones is also largely weakened under adverse lighting conditions such as backlighting or uneven lighting. In this paper, a novel segmentation-based illumination normalization method is presented for the purpose of compensating non-uniform illuminations and increasing the robustness of Haar-like face detector. First Otsu method is employed to segment the input image. Then the proposed illumination normalization method called Half Histogram Truncation and Stretching (HHTS) is applied to locally attenuate the illumination and enhance the visibility of local patterns (facial structures). Finally Haar-like face detector is executed to locate faces. Experimental results show that it can remove non-uniform illuminations efficiently and significantly increase the performance of the original Haar-like face detector.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/IWCIA.2013.6624793&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

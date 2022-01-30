@@ -1,0 +1,743 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>青木 工太 – 業績</title>
+    <link>https://akotokia.github.io/ja/blog/</link>
+    <description>Recent content in 業績 on 青木 工太</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/ja/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic</title>
+      <link>https://akotokia.github.io/ja/blog/article/wu2021dlm/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/wu2021dlm/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Matsuura, T., Okura, F., Makihara, Y., Zhou, C., Aoki, K., Mitsugami, I., and Yagi, Y. (2021). Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:150268-150282.&lt;/p&gt;
+&lt;p&gt;The Mini-Mental State Examination (MMSE) is widely used in clinics to screen for low cognitive status. However, it is limited in that it requires examiners to be present; and has fixed questions that constrain its repeated use. Thus, the MMSE cannot be used as a daily assessment to facilitate early detection of cognitive impairment. To address this issue, we developed an automated system to detect older adults with lower MMSE scores by analyzing performance during a dual task involving stepping and calculation, which can be used repeatedly because its questions were randomly created. Leveraging this advantage, this paper proposes a learning-based method to detect subjects with lower MMSE scores using multiple trials with the dual-task system. We investigated various patterns for effectively combining the features acquired during multiple continuous trials, and analyzed the sensitivity of the number N of trials on detection performance to find the optimal N via experiments. We compared our approach with previous methods and demonstrated the superiority of our strategy. Using the cross-trial feature, our approach achieved an overall performance (sensitivity+specificity) as high as 1.79 for detecting older adults whose MMSE score is equal to or less than 23 (indicate a relatively high probability of dementia), and 1.75 for detecting older adults whose MMSE score is equal to or less than 27 (indicative of a relatively high probability of mild cognitive impairment (MCI)).&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3126067&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network</title>
+      <link>https://akotokia.github.io/ja/blog/article/aoki2021pfd/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/aoki2021pfd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Nishikawa, H., Makihara, Y., Muramatsu, D., Takemura, N., and Yagi, Y. (2021). Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:127565-127575.&lt;/p&gt;
+&lt;p&gt;This paper describes a deep learning approach to classify physically fatigued and non-fatigued gait cycles via a recurrent neural network (RNN), where each gait cycle is represented as a time series of three-dimensional coordinates of body joints. Gait cycles inherently have large intra-class variations caused by gait stance differences (e.g., which foot is supporting/swinging) at the beginning of each gait cycle, which makes it difficult to identify subtle differences induced by fatigue. To overcome these difficulties, we introduce a supporting foot-aware RNN model in a multi-task learning framework for better fatigue detection. More specifically, the RNN model has two branches of layers: one is assigned to the main task of fatigue classification and the other is assigned to the auxiliary task of estimating the first supporting foot in the gait cycles. We collected physically fatigued and non-fatigued gait cycles from eight subjects and conducted experiments to evaluate the accuracies of the proposed multi-task model in comparison to a single-task model. As a result, the proposed method achieved an overall area under curve (AUC) of 0.860 for fatigue classification in a leave-one-subject-out cross-validation, and an AUC of 0.915 in a leave-one-day-out evaluation. It can be concluded from the experimental results that a fatigue detection system for daily use, especially for screening purposes, is very feasible on the basis of the proposed approach.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3110841&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 深度画像認識手法を用いた老化に伴う運動機能低下の検知</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/tsuchimichi2021a/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/tsuchimichi2021a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;槌道, 青木, 槇原, 中村, 八木, 西川 (2021). 深度画像認識手法を用いた老化に伴う運動機能低下の検知. &lt;em&gt;情報処理学会 CVIM 研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
+      <link>https://akotokia.github.io/ja/blog/international/wu2021edl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/wu2021edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 疲労判定に必要な歩容特徴量に関する検討</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/nishikawa2020a/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/nishikawa2020a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;西川, 青木, 村松, 槇原, 八木 (2020). 疲労判定に必要な歩容特徴量に関する検討. &lt;em&gt;2020年電子情報通信学会総合大会講演論文集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Detection and Classification of Cervical Intraepithelial Lesions using Deep Learning</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/manalo2020a/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/manalo2020a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Manalo, M., Aoki, K., Ueda, Y., Ito, Y., and Yagi, Y. (2020). Detection and Classification of Cervical Intraepithelial Lesions using Deep Learning. &lt;em&gt;電子情報通信学会 技術研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: デュアルタスク歩行解析に基づく高齢者の認知機能スコア 推定</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/matsuura2020a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/matsuura2020a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;松浦, 大倉, 槇原, 周, 青木, 満上, 八木 (2020). デュアルタスク歩行解析に基づく高齢者の認知機能スコア 推定. &lt;em&gt;電子情報通信学会 技術研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 歩容による疲労判定に向けて</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/nishikawa2019b/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/nishikawa2019b/</guid>
+      <description>
+        
+        
+        &lt;p&gt;西川, 青木, 村松, 槇原, 武村, 八木 (2019). 歩容による疲労判定に向けて. &lt;em&gt;第22回画像の認識・理解シンポジウム論文集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</title>
+      <link>https://akotokia.github.io/ja/blog/article/aoki2019edl/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/aoki2019edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;7&lt;/strong&gt;:40085-40094.&lt;/p&gt;
+&lt;p&gt;The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly. Although many studies have suggested that dual-task performance, in which participants perform a cognitive task while walking, is associated with cognition, they only considered the correlation between cognitive parameters and simple gait feature, such as gait speed, through the statistical analysis. We instead use a Kinect sensor to capture participants&#39; whole-body movements and extract a rich gait feature that has the ability to exhibit different tendencies of movements between healthy and cognitive-impaired elderlies. In our experiments, a classifier based on the dual-task gait feature achieved a higher performance than the one based on the single-task feature; the performance of the rich gait feature was better than that of a simple one, and; an optimal detection performance was achieved with an MMSE cutoff score of 25. We positively validated that the proposed method could early detect elderly with lower MMSE scores based on dual-task gait feature with a promising performance. Our approach can support early and automated diagnosis of cognitive impairment.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2019.2906908&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 歩容による疲労判定手法に関する検討</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/nishikawa2019a/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/nishikawa2019a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;西川, 青木, 村松, 槇原, 八木 (2019). 歩容による疲労判定手法に関する検討. &lt;em&gt;2019年電子情報通信学会総合大会講演論文集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Time-lapse Image Analysis for Rapid Drug Susceptibility Testing</title>
+      <link>https://akotokia.github.io/ja/blog/international/grushnikov2019tia/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/grushnikov2019tia/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Grushnikov, A., Hanada, S., Matsumoto, Y., Aoki, K., and Yagi, Y. (2019). Time-lapse Image Analysis for Rapid Drug Susceptibility Testing. &lt;em&gt;Proc. Int. Workshop Frontiers Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 電子顕微鏡画像における薬剤耐性菌株の識別と形態的特徴 の比較</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/nagano2019a/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/nagano2019a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;長野, 青木, 西野, 福島, 岩崎, 古澤, グルシニコフ, 越後, 西野, 八木 (2019). 電子顕微鏡画像における薬剤耐性菌株の識別と形態的特徴 の比較. &lt;em&gt;情報処理学会 CVIM 研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</title>
+      <link>https://akotokia.github.io/ja/blog/international/zhou2019aed/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/zhou2019aed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zhou, C., Mitsugami, I., Aoki, K., Okura, F., and Yagi, Y. (2019). Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children. &lt;em&gt;Proc. Int. Workshop Robust Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Growth Assessment of School-Age Children from Dual-Task Observation</title>
+      <link>https://akotokia.github.io/ja/blog/article/zhou2018gas/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/zhou2018gas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zhou, C., Mitsugami, I., Okura, F., Aoki, K., and Yagi, Y. (2018). Growth Assessment of School-Age Children from Dual-Task Observation. &lt;em&gt;ITE Trans. Media Technol. Appl.&lt;/em&gt;, &lt;strong&gt;6&lt;/strong&gt;(4):286-296.&lt;/p&gt;
+&lt;p&gt;Conventional approaches to the assessment of growth among children involve manual evaluation and treat different aspects of growth status separately. In contrast, this study presents an automated method for assessing growth status that considers various aspects of growth simultaneously. We first applied the dual-task paradigm (where two tasks are performed simultaneously) to collect data on anthropometric, kinematic, and cognitive aspects of growth at the same time. With the collected data on a large number of typically developing individuals, we constructed a statistical model of growth features and ages and also estimated participants&#39; ages using regression analysis. By comparing the value for a participant to the average level of performance, we were able to provide an initial judgment of a child&amp;rsquo;s growth status. The experiment results demonstrated that, among children, the growth features developed with age and that the estimation of growth status using this model was feasible.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3169/mta.6.286&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Time-lapse Image Analysis for Rapid Drug Susceptibility Testing</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/grushnikov2018tia/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/grushnikov2018tia/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Grushnikov, A., Hanada, S., Matsumoto, Y., Aoki, K., and Yagi, Y. (2018). Time-lapse Image Analysis for Rapid Drug Susceptibility Testing. &lt;em&gt;第21回画像の認識・理解シンポジウム論文集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Automatic Collection of Dual-task Human Behavior for Analysis of Cognitive Function</title>
+      <link>https://akotokia.github.io/ja/blog/article/okura2018acd/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/okura2018acd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Okura, F., Mitsugami, I., Niwa, M., Aoki, K., Zhou, C., and Yagi, Y. (2018). Automatic Collection of Dual-task Human Behavior for Analysis of Cognitive Function. &lt;em&gt;ITE Trans. Media Technol. Appl.&lt;/em&gt;, &lt;strong&gt;6&lt;/strong&gt;(2):138-150.&lt;/p&gt;
+&lt;p&gt;The performance of dual task, simultaneously performing two tasks, is a useful measure of a person&amp;rsquo;s cognitive abilities because it creates a heavier load on the brain than single tasks. Large-scale datasets of dual-task behavior are required to quantitatively analyze the relationships among dual-task performance, cognitive functions, and personal attributes such as age. We present an automatic data collection system for dual-task behavior that can be installed in public spaces without an operator in attendance. The system is designed as an entertainment kiosk to attract participants. We used the system to collect a large-scale dataset consisting of more than 70,000 sessions of dual-task behavior, in conjunction with a long-running exhibition in a science museum. The resultant dataset, which includes sensor data such as RGB-D image sequences, can be used for learning- and vision-based investigations of human cognitive functions.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3169/mta.6.138&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</title>
+      <link>https://akotokia.github.io/ja/blog/international/zhou2018aed/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/zhou2018aed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zhou, C., Mitsugami, I., Aoki, K., Okura, F., and Yagi, Y. (2018). Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children. &lt;em&gt;Proc. Int. Workshop Frontiers Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 畳み込みニューラルネットワークを用いた電子顕微鏡画像 における薬剤耐性菌株の識別</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/nagano2017a/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/nagano2017a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;長野, 青木, 武内, 西野, 西野, 古澤, 岩崎, 越後, 八木 (2017). 畳み込みニューラルネットワークを用いた電子顕微鏡画像 における薬剤耐性菌株の識別. &lt;em&gt;情報処理学会 CVIM 研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 顕微鏡画像からの細胞検出と脳腫瘍の識別</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/ishikawa2017a/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/ishikawa2017a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;石川, 鷲谷, 青木, 長橋 (2017). 顕微鏡画像からの細胞検出と脳腫瘍の識別. &lt;em&gt;画像電子学会第280回研究会講演予稿&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Cell Region Extraction from Microscopic Images of Brain Cortex Slices</title>
+      <link>https://akotokia.github.io/ja/blog/international/ishikawa2016cre/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/ishikawa2016cre/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Ishikawa, Y., Washiya, K., Nagahashi, H., and Aoki, K. (2016). Cell Region Extraction from Microscopic Images of Brain Cortex Slices. &lt;em&gt;Proc. Int. Workshop Robust Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Constraints Optimization for Minimizing Stretch in Bounded-Parameterization</title>
+      <link>https://akotokia.github.io/ja/blog/article/dechvijankit2016com/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/dechvijankit2016com/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2016). Constraints Optimization for Minimizing Stretch in Bounded-Parameterization. &lt;em&gt;J. Comput. Sci.&lt;/em&gt;, &lt;strong&gt;12&lt;/strong&gt;(9):436-447.&lt;/p&gt;
+&lt;p&gt;In a mesh parameterization process that generates one-to-one mapping information between a three-dimensional surface and a two-dimensional plane, we need to set some constraint positions in the solving system to define a specific location or size of the mapping plane. In this study, we will discuss how to perform a bounded-parameterization that minimizes distortion based on changing of constraints setting in the solving system. We introduce a series of experiments focusing on constraints optimization to deliver the optimal mapping information with less computational cost and time. Our proposed methods can reduce more than half of calculation costs and times from traditional method while maintaining the optimal mapping information.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3844/jcssp.2016.436.447&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Brain Tumor Classification of Microscopy Images Using Deep Residual Learning</title>
+      <link>https://akotokia.github.io/ja/blog/international/ishikawa2016btc/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/ishikawa2016btc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Ishikawa, Y., Washiya, K., Aoki, K., and Nagahashi, H. (2016). Brain Tumor Classification of Microscopy Images Using Deep Residual Learning. &lt;em&gt;Proc. SPIE&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;The crisis rate of brain tumor is about one point four in ten thousands. In general, cytotechnologists take charge of cytologic diagnosis. However, the number of cytotechnologists who can diagnose brain tumors is not sufficient, because of the necessity of highly specialized skill. Computer-Aided Diagnosis by computational image analysis may dissolve the shortage of experts and support objective pathological examinations. Our purpose is to support a diagnosis from a microscopy image of brain cortex and to identify brain tumor by medical image processing. In this study, we analyze Astrocytes that is a type of glia cell of central nerve system. It is not easy for an expert to discriminate brain tumor correctly since the difference between astrocytes and low grade astrocytoma (tumors formed from Astrocyte) is very slight. In this study, we present a novel method to segment cell regions robustly using BING objectness estimation and to classify brain tumors using deep convolutional neural networks (CNNs) constructed by deep residual learning. BING is a fast object detection method and we use pretrained BING model to detect brain cells. After that, we apply a sequence of post-processing like Voronoi diagram, binarization, watershed transform to obtain fine segmentation. For classification using CNNs, a usual way of data argumentation is applied to brain cells database. Experimental results showed 98.5% accuracy of classification and 98.2% accuracy of segmentation.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1117/12.2242711&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: An External Parameter Estimation Method for Wide-area Active Surveillance Cameras</title>
+      <link>https://akotokia.github.io/ja/blog/article/xing2016epe/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/xing2016epe/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Xing, Y., Nagahashi, H., Zhang, X., and Aoki, K. (2016). An External Parameter Estimation Method for Wide-area Active Surveillance Cameras. &lt;em&gt;IIEEJ Trans. Image Electron. Vis. Comput.&lt;/em&gt;, &lt;strong&gt;4&lt;/strong&gt;(1):53-62.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Online Motion Retrieval System for Human Motion Data</title>
+      <link>https://akotokia.github.io/ja/blog/article/im2016omr/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/im2016omr/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Im, H., Aoki, K., and Nagahashi, H. (2016). Online Motion Retrieval System for Human Motion Data. &lt;em&gt;IIEEJ Trans. Image Electron. Vis. Comput.&lt;/em&gt;, &lt;strong&gt;4&lt;/strong&gt;(1):43-52.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 3D Gray Level Co-occurrence Matrix Based Classification of Favor Benign and Borderline Types in Follicular Neoplasm Images</title>
+      <link>https://akotokia.github.io/ja/blog/article/boonsiri2016glc/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/boonsiri2016glc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Boonsiri, O., Washiya, K., Aoki, K., and Nagahashi, H. (2016). 3D Gray Level Co-occurrence Matrix Based Classification of Favor Benign and Borderline Types in Follicular Neoplasm Images. &lt;em&gt;J. Biosci. Med.&lt;/em&gt;, &lt;strong&gt;4&lt;/strong&gt;(3):51-56.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4236/jbm.2016.43009&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Automated Dynamic Cellular Analysis in Time-Lapse Microscopy</title>
+      <link>https://akotokia.github.io/ja/blog/article/aotake2016adc/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/aotake2016adc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aotake, S., Cho, S., Atupelage, C., Aoki, K., Nagahashi, H., and Kiga, D. (2016). Automated Dynamic Cellular Analysis in Time-Lapse Microscopy. &lt;em&gt;J. Biosci. Med.&lt;/em&gt;, &lt;strong&gt;4&lt;/strong&gt;(3):44-50.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4236/jbm.2016.43008&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 顕微鏡画像における細胞のテクスチャ解析</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/aotake2016c/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/aotake2016c/</guid>
+      <description>
+        
+        
+        &lt;p&gt;青竹, Atupelage, Zhang, 青木, 長橋, 木賀 (2016). 顕微鏡画像における細胞のテクスチャ解析. &lt;em&gt;2016年電子情報通信学会総合大会講演論文集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 顕微鏡画像における細胞の解析ツール構築</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/aotake2016b/</link>
+      <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/aotake2016b/</guid>
+      <description>
+        
+        
+        &lt;p&gt;青竹, アトゥペラグ, 張, 青木, 長橋, 木賀 (2016). 顕微鏡画像における細胞の解析ツール構築. &lt;em&gt;画像電子学会第276回研究会講演予稿&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Incorrect Skeletal Parts Recovering Method Using 3D Space Division and MoCap Data</title>
+      <link>https://akotokia.github.io/ja/blog/international/im2016isp/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/im2016isp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Im, H., Nagahashi, H., and Aoki, K. (2016). Incorrect Skeletal Parts Recovering Method Using 3D Space Division and MoCap Data. &lt;em&gt;Proc. IASTED Int. Conf. Model. Identif. Control&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Over the past few decades many researchers have been studying about human motion recognition. Human motion recognition can apply a various application in real world. Recently, the acquirement of the skeleton has been become a more easy with the release of Kinect which offer the estimated skeleton without marker. At the same time, the skeleton based human motion recognition and description method are proposed as a various method. However, this skeleton information is easy to lose the target joint and recognize the incorrect joint position information. In contrast, motion capture system can create a motion capture data which is including more natural and correct joint position. But the task to create a motion capture (MoCap) data is time consuming and labor intensive. Thus, we propose the application to offer recovered motion without MoCap data and recovering method using 3D space division and MoCap data. We extract a sequence of the joint trajectory by using 3D motion space. And we use a dynamic time warping algorithm (DTW) to find a best estimate joint in Kinect skeleton and a corresponding MoCap frame. Then, we repair the incorrect Kinect joint position based on corresponding MoCap data.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.2316/P.2016.830-032&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 大脳皮質の顕微鏡画像における脳腫瘍識別のための細胞領 域の抽出</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/ishikawa2016a/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/ishikawa2016a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;石川, 鷲谷, 長橋, 青木 (2016). 大脳皮質の顕微鏡画像における脳腫瘍識別のための細胞領 域の抽出. &lt;em&gt;医用画像情報学会第174回春季大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 顕微鏡画像における細胞テクスチャ解析</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/aotake2016a/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/aotake2016a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;青竹, アトゥペラグ, 張, 青木, 長橋, 木賀 (2016). 顕微鏡画像における細胞テクスチャ解析. &lt;em&gt;医用画像情報学会第174回春季大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 広域アクティブカメラを用いた空間位置の計測</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/xing2015a/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/xing2015a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Xing, 長橋, Zhang, 青 木 (2015). 広域アクティブカメラを用いた空間位置の計測. &lt;em&gt;画像電子学会第43回年次大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 顕微鏡画像におけるテクスチャ解析を用いた細胞領域抽出 に関する研究</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/aotake2015b/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/aotake2015b/</guid>
+      <description>
+        
+        
+        &lt;p&gt;青竹, Atupelage, 青木, 長橋, 木賀 (2015). 顕微鏡画像におけるテクスチャ解析を用いた細胞領域抽出 に関する研究. &lt;em&gt;画像電子学会第43回年次大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 顕微鏡画像における細胞のテクスチャ解析及びデータベー スの公開</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/aotake2015a/</link>
+      <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/aotake2015a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;青竹, Atupelage, 青木, 長橋, 木賀 (2015). 顕微鏡画像における細胞のテクスチャ解析及びデータベー スの公開. &lt;em&gt;医用画像情報学会第172回年次大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Multispectral Band Analysis: Application on the Classification of Hepatocellular Carcinoma Cells in High-Magnification Histopathological Images</title>
+      <link>https://akotokia.github.io/ja/blog/article/boonsiri2015mba/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/boonsiri2015mba/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Boonsiri, O., Atupelage, C., Nagahashi, H., Aoki, K., Kimura, F., and Yamaguchi, M. (2015). Multispectral Band Analysis: Application on the Classification of Hepatocellular Carcinoma Cells in High-Magnification Histopathological Images. &lt;em&gt;J. Cytol. Histol.&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4172/2157-7099.S3-006&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance</title>
+      <link>https://akotokia.github.io/ja/blog/international/dechvijankit2015hsc/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/dechvijankit2015hsc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2015). A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance. &lt;em&gt;Proc. Int. Conf. Comput. Graphics Theory Appl.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Topology is a property of surfaces that plays a major role in computer graphics. Processing or analysis between two surfaces generally requires both of them to be in same topology. There are many tools or applications such as parameterization or remeshing that require disk topology surfaces as input. Therefore, it is important to convert any surfaces to be same as a topological disk. The common procedure is to define a graph of edges inside the surface that should be split into two edges and to turn the surface into topological disk. We call it as homotopy cutting. Problems become more difficult when dealing with high genus surfaces such as a torus. Based on a novel method, we present an enhancement method to generate a cut graph in high-genus surface for homotopy cutting. By using geodesic properties of each edge, we can generate equally or more suitable edge-graph than original method while keeping similar performance and stability as original one.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.5220/0005302601300137&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: マルチフラクタルを用いた四次元細胞画像の分割とレンダ リング法</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/masui2015a/</link>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/masui2015a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;増井, Atupelage, 青木, 長橋 (2015). マルチフラクタルを用いた四次元細胞画像の分割とレンダ リング法. &lt;em&gt;画像電子学会第272回研究会講演予稿&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 三次元超音波画像における高密度な長時間動態解析</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/yokoyama2015a/</link>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/yokoyama2015a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;横山, 青木, 長橋 (2015). 三次元超音波画像における高密度な長時間動態解析. &lt;em&gt;画像電子学会第272回研究会講演予稿&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Dense Motion Analysis and Segmentation of Ultrasound Images</title>
+      <link>https://akotokia.github.io/ja/blog/international/yokoyama2015dma/</link>
+      <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/yokoyama2015dma/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Yokoyama, R., Aoki, K., and Nagahashi, H. (2015). Dense Motion Analysis and Segmentation of Ultrasound Images. &lt;em&gt;Proc. SPIE&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1117/12.2078856&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: An Efficient Liver-Segmentation System Based on a Level-Set Method and Consequent Processes</title>
+      <link>https://akotokia.github.io/ja/blog/article/narkbuakaew2014els/</link>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/narkbuakaew2014els/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2014). An Efficient Liver-Segmentation System Based on a Level-Set Method and Consequent Processes. &lt;em&gt;J. Biomed. Sci. Eng.&lt;/em&gt;, &lt;strong&gt;7&lt;/strong&gt;(12):994-1004.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4236/jbise.2014.712097&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 超音波画像における動態の長時間解析</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/yokoyama2014c/</link>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/yokoyama2014c/</guid>
+      <description>
+        
+        
+        &lt;p&gt;横山, 青木, 長橋 (2014). 超音波画像における動態の長時間解析. &lt;em&gt;第33回日本医用画像工学会大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: マルチフラクタルを用いた三次元細胞画像の分割とレンダ リング法</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/masui2014a/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/masui2014a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;増井, Atupelage, 青木, 長橋 (2014). マルチフラクタルを用いた三次元細胞画像の分割とレンダ リング法. &lt;em&gt;画像電子学会第42回年次大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 放射線治療のための超音波画像における動態解析</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/yokoyama2014b/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/yokoyama2014b/</guid>
+      <description>
+        
+        
+        &lt;p&gt;横山, 青木, 長橋 (2014). 放射線治療のための超音波画像における動態解析. &lt;em&gt;画像電子学会第42回年次大会予稿集&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Illumination Normalization-Based Face Detection under Varying Illumination</title>
+      <link>https://akotokia.github.io/ja/blog/article/yao2014inb/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/yao2014inb/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Yao, M., Nagahashi, H., and Aoki, K. (2014). Illumination Normalization-Based Face Detection under Varying Illumination. &lt;em&gt;IEICE Trans. Inf. &amp;amp; Syst.&lt;/em&gt;, &lt;strong&gt;E97-D&lt;/strong&gt;(6):1590-1598.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Integration of Modified K-Means Clustering and Morphological Operations for Multi-Organ Segmentation in CT Liver-Images</title>
+      <link>https://akotokia.github.io/ja/blog/international/narkbuakaew2014imk/</link>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/narkbuakaew2014imk/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2014). Integration of Modified K-Means Clustering and Morphological Operations for Multi-Organ Segmentation in CT Liver-Images. &lt;em&gt;Proc. Int. Conf. Biol. Biomed. Eng.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Geometric Context に基づく画像からの地形的特徴抽出と 自己位置推定</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/minamida2014a/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/minamida2014a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;南田, 青木, 長橋 (2014). Geometric Context に基づく画像からの地形的特徴抽出と 自己位置推定. &lt;em&gt;電子情報通信学会技術研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: オプティカルフローとテクスチャ情報に基づいた超音波画 像の動態解析</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/yokoyama2014a/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/yokoyama2014a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;横山, 青木, 長橋 (2014). オプティカルフローとテクスチャ情報に基づいた超音波画 像の動態解析. &lt;em&gt;電子情報通信学会技術研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 反応拡散系を制御空間とする 3D モデルの自律的な動作 獲得</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/kasai2014a/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/kasai2014a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;河西, 青木, 長橋 (2014). 反応拡散系を制御空間とする 3D モデルの自律的な動作 獲得. &lt;em&gt;情報処理学会 MVE 研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 時空間特徴と教師なし学習を用いた製造機械の異常動作シー ンの抽出</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/kobayashi2014b/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/kobayashi2014b/</guid>
+      <description>
+        
+        
+        &lt;p&gt;小林, 青木, 長橋 (2014). 時空間特徴と教師なし学習を用いた製造機械の異常動作シー ンの抽出. &lt;em&gt;電子情報通信学会技術研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 輪郭線からの形状モデル生成に基づく物体検出に関する研 究</title>
+      <link>https://akotokia.github.io/ja/blog/domestic/eguchi2014a/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/domestic/eguchi2014a/</guid>
+      <description>
+        
+        
+        &lt;p&gt;江口, 青木, 長橋 (2014). 輪郭線からの形状モデル生成に基づく物体検出に関する研 究. &lt;em&gt;電子情報通信学会技術研究報告&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

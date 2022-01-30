@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>青木 工太 – Machine learning</title>
+    <link>https://akotokia.github.io/ja/tags/machine-learning/</link>
+    <description>Recent content in Machine learning on 青木 工太</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/ja/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
+      <link>https://akotokia.github.io/ja/blog/international/wu2021edl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/wu2021edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

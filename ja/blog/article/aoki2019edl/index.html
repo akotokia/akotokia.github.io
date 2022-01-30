@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.92.1" />
+<meta name="robots" content="index, follow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait | 青木 工太</title>
+<meta name="description" content="Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly …">
+<meta property="og:title" content="Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait" />
+<meta property="og:description" content="Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. IEEE Access, 7:40085-40094.
+The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://akotokia.github.io/ja/blog/article/aoki2019edl/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2019-03-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-22T00:00:00+00:00" /><meta property="og:site_name" content="青木 工太" />
+
+<meta itemprop="name" content="Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait">
+<meta itemprop="description" content="Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. IEEE Access, 7:40085-40094.
+The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly."><meta itemprop="datePublished" content="2019-03-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-03-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="255">
+<meta itemprop="keywords" content="Cognition,Diseases,Gait analysis,Geriatrics,Learning (artificial intelligence),Neurophysiology,Statistical analysis," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait"/>
+<meta name="twitter:description" content="Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. IEEE Access, 7:40085-40094.
+The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly."/>
+
+
+
+
+<link rel="preload" href="/scss/main.scss" as="style">
+<link href="/scss/main.scss" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page td-blog">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/ja/">
+		<span class="navbar-logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><rect x="198.8952" y="225.1043" style="fill:#5b7fc0" width="122.6266" height="13.8671"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zm7.993 21.8577c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><rect x="198.8952" y="170.69" style="fill:#d95140" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><rect x="199.3456" y="279.5436" style="fill:#56a55c" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><rect x="198.8952" y="333.6497" style="fill:#f1bc42" width="122.6266" height="13.8671"/></g></g></svg></span><span class="font-weight-bold">青木 工太</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link active" href="/ja/blog/" ><span class="active">publication</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/ja/docs/" ><span>project</span></a>
+			</li>
+			
+			
+			
+			<li class="nav-item dropdown mr-4 d-none d-lg-block">
+				
+
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	Japanese
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	
+	<a class="dropdown-item" href="/blog/article/aoki2019edl/">English</a>
+	
+</div>
+			</li>
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block"></div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+  <script>
+    $(function() {
+    $("#td-section-nav a").removeClass("active");
+    $("#td-section-nav #m-jablogarticleaoki2019edl").addClass("active"); 
+    $("#td-section-nav #m-jablogarticleaoki2019edl-li span").addClass("td-sidebar-nav-active-item"); 
+    $("#td-section-nav #m-jablogarticleaoki2019edl").parents("li").addClass("active-path"); 
+    $("#td-section-nav li.active-path").addClass("show"); 
+    $("#td-section-nav li.active-path").children("input").prop('checked', true);
+    $("#td-section-nav #m-jablogarticleaoki2019edl-li").siblings("li").addClass("show");  
+    $("#td-section-nav #m-jablogarticleaoki2019edl-li").children("ul").children("li").addClass("show");  
+    $("#td-sidebar-menu").toggleClass("d-none"); 
+    });
+  </script>
+  
+<div id="td-sidebar-menu" class="td-sidebar__inner d-none">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="collapse td-sidebar-nav" id="td-section-nav">
+    <div class="nav-item dropdown d-block d-lg-none">
+      
+
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	Japanese
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	
+	<a class="dropdown-item" href="/">English</a>
+	
+</div>
+    </div>
+    <ul class="td-sidebar-nav__section pr-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-jablog-li">
+  <a href="/ja/blog/" title="業績" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-jablog"><span class="">publication</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-jablogarticle-li">
+  <a href="/ja/blog/article/" title="論文誌" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-jablogarticle"><span class="">article</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlewu2021dlm-li">
+  <a href="/ja/blog/article/wu2021dlm/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlewu2021dlm"><span class="">Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaoki2021pfd-li">
+  <a href="/ja/blog/article/aoki2021pfd/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaoki2021pfd"><span class="">Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaoki2019edl-li">
+  <a href="/ja/blog/article/aoki2019edl/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaoki2019edl"><span class="">Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlezhou2018gas-li">
+  <a href="/ja/blog/article/zhou2018gas/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlezhou2018gas"><span class="">Growth Assessment of School-Age Children from Dual-Task Observation</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleokura2018acd-li">
+  <a href="/ja/blog/article/okura2018acd/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleokura2018acd"><span class="">Automatic Collection of Dual-task Human Behavior for Analysis of Cognitive Function</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticledechvijankit2016com-li">
+  <a href="/ja/blog/article/dechvijankit2016com/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticledechvijankit2016com"><span class="">Constraints Optimization for Minimizing Stretch in Bounded-Parameterization</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlexing2016epe-li">
+  <a href="/ja/blog/article/xing2016epe/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlexing2016epe"><span class="">An External Parameter Estimation Method for Wide-area Active Surveillance Cameras</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleim2016omr-li">
+  <a href="/ja/blog/article/im2016omr/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleim2016omr"><span class="">Online Motion Retrieval System for Human Motion Data</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleboonsiri2016glc-li">
+  <a href="/ja/blog/article/boonsiri2016glc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleboonsiri2016glc"><span class="">3D Gray Level Co-occurrence Matrix Based Classification of Favor Benign and Borderline Types in Follicular Neoplasm Images</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaotake2016adc-li">
+  <a href="/ja/blog/article/aotake2016adc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaotake2016adc"><span class="">Automated Dynamic Cellular Analysis in Time-Lapse Microscopy</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleboonsiri2015mba-li">
+  <a href="/ja/blog/article/boonsiri2015mba/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleboonsiri2015mba"><span class="">Multispectral Band Analysis: Application on the Classification of Hepatocellular Carcinoma Cells in High-Magnification Histopathological Images</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlenarkbuakaew2014els-li">
+  <a href="/ja/blog/article/narkbuakaew2014els/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlenarkbuakaew2014els"><span class="">An Efficient Liver-Segmentation System Based on a Level-Set Method and Consequent Processes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleyao2014inb-li">
+  <a href="/ja/blog/article/yao2014inb/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleyao2014inb"><span class="">Illumination Normalization-Based Face Detection under Varying Illumination</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlenarkbuakaew2014bsc-li">
+  <a href="/ja/blog/article/narkbuakaew2014bsc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlenarkbuakaew2014bsc"><span class="">Bone Segmentation in CT-Liver Images Using K-Means Clustering for 3D Rib Cage Surface-Modeling</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaoki2013vcg-li">
+  <a href="/ja/blog/article/aoki2013vcg/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaoki2013vcg"><span class="">Visual Correspondence Grouping via Local Consistent Neighborhood</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleyao2011pbp-li">
+  <a href="/ja/blog/article/yao2011pbp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleyao2011pbp"><span class="">Photograph Based Pair-matching Recognition of Human Faces</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlekubota2009b-li">
+  <a href="/ja/blog/article/kubota2009b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlekubota2009b"><span class="">3D-KLT Tracker を用いた4次元 CT 画像からの肺動 態の定量化</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlematsui2008tmp-li">
+  <a href="/ja/blog/article/matsui2008tmp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlematsui2008tmp"><span class="">3D Triangular Mesh Parameterization with Semantic Features Based on Competitive Learning Methods</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticlesato2008d-li">
+  <a href="/ja/blog/article/sato2008d/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticlesato2008d"><span class="">動作特徴を考慮したモーションキャプチャデータベースの 構築と動作生成への応用</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaoki2006b-li">
+  <a href="/ja/blog/article/aoki2006b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaoki2006b"><span class="">マルコフ確率場と階層的事前分布による画像分割</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaoki2005b-li">
+  <a href="/ja/blog/article/aoki2005b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaoki2005b"><span class="">ベイズ推定に基づく階層的事前分布とマルコフ確率場によ る画像領域分割</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogarticleaoki2004bla-li">
+  <a href="/ja/blog/article/aoki2004bla/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogarticleaoki2004bla"><span class="">Behavior Learning and Animation Synthesis of Falling Flat Objects</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-jabloginternational-li">
+  <a href="/ja/blog/international/" title="国際会議論文" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-jabloginternational"><span class="">international</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalwu2021edl-li">
+  <a href="/ja/blog/international/wu2021edl/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalwu2021edl"><span class="">Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalgrushnikov2019tia-li">
+  <a href="/ja/blog/international/grushnikov2019tia/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalgrushnikov2019tia"><span class="">Time-lapse Image Analysis for Rapid Drug Susceptibility Testing</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalzhou2019aed-li">
+  <a href="/ja/blog/international/zhou2019aed/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalzhou2019aed"><span class="">Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalzhou2018aed-li">
+  <a href="/ja/blog/international/zhou2018aed/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalzhou2018aed"><span class="">Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalishikawa2016cre-li">
+  <a href="/ja/blog/international/ishikawa2016cre/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalishikawa2016cre"><span class="">Cell Region Extraction from Microscopic Images of Brain Cortex Slices</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalishikawa2016btc-li">
+  <a href="/ja/blog/international/ishikawa2016btc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalishikawa2016btc"><span class="">Brain Tumor Classification of Microscopy Images Using Deep Residual Learning</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalim2016isp-li">
+  <a href="/ja/blog/international/im2016isp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalim2016isp"><span class="">Incorrect Skeletal Parts Recovering Method Using 3D Space Division and MoCap Data</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationaldechvijankit2015hsc-li">
+  <a href="/ja/blog/international/dechvijankit2015hsc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationaldechvijankit2015hsc"><span class="">A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalyokoyama2015dma-li">
+  <a href="/ja/blog/international/yokoyama2015dma/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalyokoyama2015dma"><span class="">Dense Motion Analysis and Segmentation of Ultrasound Images</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalnarkbuakaew2014imk-li">
+  <a href="/ja/blog/international/narkbuakaew2014imk/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalnarkbuakaew2014imk"><span class="">Integration of Modified K-Means Clustering and Morphological Operations for Multi-Organ Segmentation in CT Liver-Images</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalnarkbuakaew2014lsi-li">
+  <a href="/ja/blog/international/narkbuakaew2014lsi/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalnarkbuakaew2014lsi"><span class="">Level-Set Image Segmentation Based on Integration of Artificial Balloon and Signed Pressure Forces</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalim2014lab-li">
+  <a href="/ja/blog/international/im2014lab/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalim2014lab"><span class="">On-Line Algorithm Based Retrieval for Human Motion Data</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalboonsiri2014smb-li">
+  <a href="/ja/blog/international/boonsiri2014smb/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalboonsiri2014smb"><span class="">Significance of Multispectral Band for Classification of Cancer Cells in Hepatocellular Carcinoma from Histophatology Images Using Gabor Descriptor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalnarkbuakaew2013lsb-li">
+  <a href="/ja/blog/international/narkbuakaew2013lsb/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalnarkbuakaew2013lsb"><span class="">Liver Segmentation Based on Reaction-Diffusion Evolution and Chan-Vese Model in 4DCT</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalyao2013sin-li">
+  <a href="/ja/blog/international/yao2013sin/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalyao2013sin"><span class="">Segmentation-based Illumination Normalization for Face Detection</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationaldechvijankit2013osp-li">
+  <a href="/ja/blog/international/dechvijankit2013osp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationaldechvijankit2013osp"><span class="">An Optimization of Square Parameterization</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationaldechvijankit2012fwc-li">
+  <a href="/ja/blog/international/dechvijankit2012fwc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationaldechvijankit2012fwc"><span class="">Fast Way to Create Seam Boundary for Square Parameterization with Low-distortion</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalaoki2011cvp-li">
+  <a href="/ja/blog/international/aoki2011cvp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalaoki2011cvp"><span class="">Common Visual Pattern Detection by Mixture Particle Filtering</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalaoki2009msm-li">
+  <a href="/ja/blog/international/aoki2009msm/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalaoki2009msm"><span class="">A Multilevel Surface Modeling Method and Its Application to Range Image Registration</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalkubota2009pmt-li">
+  <a href="/ja/blog/international/kubota2009pmt/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalkubota2009pmt"><span class="">Pulmonary Motion Tracking from 4D-CT Images Using a 3D-KLT Tracker</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalmatsui2007cpt-li">
+  <a href="/ja/blog/international/matsui2007cpt/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalmatsui2007cpt"><span class="">Cross-Parameterization for Triangular Meshes with Semantic Features</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalaoki2005bis-li">
+  <a href="/ja/blog/international/aoki2005bis/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalaoki2005bis"><span class="">Bayesian Image Segmentation Using MRF&#39;s Combined with Hierarchical Prior Models</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jabloginternationalaoki2003aso-li">
+  <a href="/ja/blog/international/aoki2003aso/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jabloginternationalaoki2003aso"><span class="">Animation Synthesis by Observation and Learning</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-jablogdomestic-li">
+  <a href="/ja/blog/domestic/" title="国内会議論文" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-jablogdomestic"><span class="">domestic</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestictsuchimichi2021a-li">
+  <a href="/ja/blog/domestic/tsuchimichi2021a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestictsuchimichi2021a"><span class="">深度画像認識手法を用いた老化に伴う運動機能低下の検知</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticnishikawa2020a-li">
+  <a href="/ja/blog/domestic/nishikawa2020a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticnishikawa2020a"><span class="">疲労判定に必要な歩容特徴量に関する検討</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmanalo2020a-li">
+  <a href="/ja/blog/domestic/manalo2020a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmanalo2020a"><span class="">Detection and Classification of Cervical Intraepithelial Lesions using Deep Learning</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmatsuura2020a-li">
+  <a href="/ja/blog/domestic/matsuura2020a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmatsuura2020a"><span class="">デュアルタスク歩行解析に基づく高齢者の認知機能スコア 推定</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticnishikawa2019b-li">
+  <a href="/ja/blog/domestic/nishikawa2019b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticnishikawa2019b"><span class="">歩容による疲労判定に向けて</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticnishikawa2019a-li">
+  <a href="/ja/blog/domestic/nishikawa2019a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticnishikawa2019a"><span class="">歩容による疲労判定手法に関する検討</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticnagano2019a-li">
+  <a href="/ja/blog/domestic/nagano2019a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticnagano2019a"><span class="">電子顕微鏡画像における薬剤耐性菌株の識別と形態的特徴 の比較</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticgrushnikov2018tia-li">
+  <a href="/ja/blog/domestic/grushnikov2018tia/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticgrushnikov2018tia"><span class="">Time-lapse Image Analysis for Rapid Drug Susceptibility Testing</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticnagano2017a-li">
+  <a href="/ja/blog/domestic/nagano2017a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticnagano2017a"><span class="">畳み込みニューラルネットワークを用いた電子顕微鏡画像 における薬剤耐性菌株の識別</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticishikawa2017a-li">
+  <a href="/ja/blog/domestic/ishikawa2017a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticishikawa2017a"><span class="">顕微鏡画像からの細胞検出と脳腫瘍の識別</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaotake2016c-li">
+  <a href="/ja/blog/domestic/aotake2016c/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaotake2016c"><span class="">顕微鏡画像における細胞のテクスチャ解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaotake2016b-li">
+  <a href="/ja/blog/domestic/aotake2016b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaotake2016b"><span class="">顕微鏡画像における細胞の解析ツール構築</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticishikawa2016a-li">
+  <a href="/ja/blog/domestic/ishikawa2016a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticishikawa2016a"><span class="">大脳皮質の顕微鏡画像における脳腫瘍識別のための細胞領 域の抽出</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaotake2016a-li">
+  <a href="/ja/blog/domestic/aotake2016a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaotake2016a"><span class="">顕微鏡画像における細胞テクスチャ解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticxing2015a-li">
+  <a href="/ja/blog/domestic/xing2015a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticxing2015a"><span class="">広域アクティブカメラを用いた空間位置の計測</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaotake2015b-li">
+  <a href="/ja/blog/domestic/aotake2015b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaotake2015b"><span class="">顕微鏡画像におけるテクスチャ解析を用いた細胞領域抽出 に関する研究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaotake2015a-li">
+  <a href="/ja/blog/domestic/aotake2015a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaotake2015a"><span class="">顕微鏡画像における細胞のテクスチャ解析及びデータベー スの公開</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmasui2015a-li">
+  <a href="/ja/blog/domestic/masui2015a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmasui2015a"><span class="">マルチフラクタルを用いた四次元細胞画像の分割とレンダ リング法</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyokoyama2015a-li">
+  <a href="/ja/blog/domestic/yokoyama2015a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyokoyama2015a"><span class="">三次元超音波画像における高密度な長時間動態解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyokoyama2014c-li">
+  <a href="/ja/blog/domestic/yokoyama2014c/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyokoyama2014c"><span class="">超音波画像における動態の長時間解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmasui2014a-li">
+  <a href="/ja/blog/domestic/masui2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmasui2014a"><span class="">マルチフラクタルを用いた三次元細胞画像の分割とレンダ リング法</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyokoyama2014b-li">
+  <a href="/ja/blog/domestic/yokoyama2014b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyokoyama2014b"><span class="">放射線治療のための超音波画像における動態解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticminamida2014a-li">
+  <a href="/ja/blog/domestic/minamida2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticminamida2014a"><span class="">Geometric Context に基づく画像からの地形的特徴抽出と 自己位置推定</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyokoyama2014a-li">
+  <a href="/ja/blog/domestic/yokoyama2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyokoyama2014a"><span class="">オプティカルフローとテクスチャ情報に基づいた超音波画 像の動態解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestickasai2014a-li">
+  <a href="/ja/blog/domestic/kasai2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestickasai2014a"><span class="">反応拡散系を制御空間とする 3D モデルの自律的な動作 獲得</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestickobayashi2014b-li">
+  <a href="/ja/blog/domestic/kobayashi2014b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestickobayashi2014b"><span class="">時空間特徴と教師なし学習を用いた製造機械の異常動作シー ンの抽出</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticeguchi2014a-li">
+  <a href="/ja/blog/domestic/eguchi2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticeguchi2014a"><span class="">輪郭線からの形状モデル生成に基づく物体検出に関する研 究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestickobayashi2014a-li">
+  <a href="/ja/blog/domestic/kobayashi2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestickobayashi2014a"><span class="">時空間特徴点と1クラス SVM を用いた製造機械の異常動 作シーンの抽出</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestictakemoto2014a-li">
+  <a href="/ja/blog/domestic/takemoto2014a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestictakemoto2014a"><span class="">時空間特徴量を用いた人物の動作識別に関する研究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticboonsiri2013smb-li">
+  <a href="/ja/blog/domestic/boonsiri2013smb/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticboonsiri2013smb"><span class="">Significance of Multispectral Band for Classification of Cancer Cells in Hepatocellular Carcinoma from High-Magnification Histopathology Images</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestichosono2013a-li">
+  <a href="/ja/blog/domestic/hosono2013a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestichosono2013a"><span class="">時空間特徴量を用いた踊りの解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticnakazawa2013a-li">
+  <a href="/ja/blog/domestic/nakazawa2013a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticnakazawa2013a"><span class="">環状自己組織化マップによる物体輪郭線からの形状モデル 生成に関する研究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaoki2012a-li">
+  <a href="/ja/blog/domestic/aoki2012a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaoki2012a"><span class="">位相・幾何・視覚的な整合性を考慮した一般画像における 誤対応の除去</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyamada2012a-li">
+  <a href="/ja/blog/domestic/yamada2012a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyamada2012a"><span class="">特徴量間の共起性を考慮したシーン認識</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmiyazaki2012a-li">
+  <a href="/ja/blog/domestic/miyazaki2012a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmiyazaki2012a"><span class="">逐次学習を用いた超音波画像における頑強な追跡</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmiyagawa2012a-li">
+  <a href="/ja/blog/domestic/miyagawa2012a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmiyagawa2012a"><span class="">オプティカルフローと反応拡散系を用いた移動観測系動画 像からの移動物体検出</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyamada2012b-li">
+  <a href="/ja/blog/domestic/yamada2012b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyamada2012b"><span class="">特徴量間の同時確率に基づく共起性を考慮したシーン認識 に関する研究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmiyazaki2012b-li">
+  <a href="/ja/blog/domestic/miyazaki2012b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmiyazaki2012b"><span class="">逐次学習を用いた超音波画像における長時間の臓器動態定 量化</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticaoki2011a-li">
+  <a href="/ja/blog/domestic/aoki2011a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticaoki2011a"><span class="">混合粒子フィルタに基づく視覚的共通パターン検出手法</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticwang2011b-li">
+  <a href="/ja/blog/domestic/wang2011b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticwang2011b"><span class="">The Pedestrian Tracking Based on an On-line Boosting Method</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmatsushima2011b-li">
+  <a href="/ja/blog/domestic/matsushima2011b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmatsushima2011b"><span class="">X 線 CT 画像からの配線基板の再構成</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticobata2011b-li">
+  <a href="/ja/blog/domestic/obata2011b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticobata2011b"><span class="">領域追跡手法に基づく細胞の動態解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticwang2011a-li">
+  <a href="/ja/blog/domestic/wang2011a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticwang2011a"><span class="">Pedestrian Tracking via an On-line Boosting Method</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmatsushima2011a-li">
+  <a href="/ja/blog/domestic/matsushima2011a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmatsushima2011a"><span class="">X 線 CT の基板画像からの配線検出</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestictakei2011a-li">
+  <a href="/ja/blog/domestic/takei2011a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestictakei2011a"><span class="">仮想環境における非剛体物体の動作生成に関する研究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticobata2011a-li">
+  <a href="/ja/blog/domestic/obata2011a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticobata2011a"><span class="">組合せ最適化による細胞の動態解析</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticyamashita2010b-li">
+  <a href="/ja/blog/domestic/yamashita2010b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticyamashita2010b"><span class="">ステレオ画像処理を用いた仮想ユーザーインターフェース の構築</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomesticmiyazaki2010b-li">
+  <a href="/ja/blog/domestic/miyazaki2010b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomesticmiyazaki2010b"><span class="">動画像からの顔の姿勢推定による非言語情報の取得</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestichasue2010b-li">
+  <a href="/ja/blog/domestic/hasue2010b/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestichasue2010b"><span class="">映像中の顔の向き推定のための3次元モデル利用に関する 研究</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-jablogdomestichasue2010a-li">
+  <a href="/ja/blog/domestic/hasue2010a/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-jablogdomestichasue2010a"><span class="">3次元モデルに基づいた映像中の顔の向き推定に関する研 究</span></a>
+</li>
+  </ul>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            
+<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+
+</div>
+
+            
+
+
+
+
+            
+
+	
+		
+
+
+
+  
+  
+    <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      
+        <h5 class="taxonomy-title">Categories</h5>
+      
+      <ul class="taxonomy-terms">
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/categories/_8a20/" data-taxonomy-term="%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%B9%E3%82%AF"><span class="taxonomy-label">デュアルタスク</span><span class="taxonomy-count">7</span></a></li>
+        
+      </ul>
+    </div>
+  
+
+	
+		
+
+
+
+  
+  
+    <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+      
+        <h5 class="taxonomy-title">Tags</h5>
+      
+      <ul class="taxonomy-terms">
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/arithmetic/" data-taxonomy-term="arithmetic"><span class="taxonomy-label">Arithmetic</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/cognition/" data-taxonomy-term="cognition"><span class="taxonomy-label">Cognition</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/data-mining/" data-taxonomy-term="data-mining"><span class="taxonomy-label">Data mining</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/dementia/" data-taxonomy-term="dementia"><span class="taxonomy-label">Dementia</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/diseases/" data-taxonomy-term="diseases"><span class="taxonomy-label">Diseases</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/face-recognition/" data-taxonomy-term="face-recognition"><span class="taxonomy-label">Face recognition</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/feature-extraction/" data-taxonomy-term="feature-extraction"><span class="taxonomy-label">Feature extraction</span><span class="taxonomy-count">2</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/gait-analysis/" data-taxonomy-term="gait-analysis"><span class="taxonomy-label">Gait analysis</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/geodesic-distance/" data-taxonomy-term="geodesic-distance"><span class="taxonomy-label">Geodesic Distance</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/geriatrics/" data-taxonomy-term="geriatrics"><span class="taxonomy-label">Geriatrics</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/graph-cut/" data-taxonomy-term="graph-cut"><span class="taxonomy-label">Graph Cut</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/haar-transforms/" data-taxonomy-term="haar-transforms"><span class="taxonomy-label">Haar transforms</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/homotopy/" data-taxonomy-term="homotopy"><span class="taxonomy-label">Homotopy</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/image-segmentation/" data-taxonomy-term="image-segmentation"><span class="taxonomy-label">Image segmentation</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/learning-artificial-intelligence/" data-taxonomy-term="learning-artificial-intelligence"><span class="taxonomy-label">Learning (artificial intelligence)</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/lighting/" data-taxonomy-term="lighting"><span class="taxonomy-label">Lighting</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/machine-learning/" data-taxonomy-term="machine-learning"><span class="taxonomy-label">Machine learning</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/monitoring/" data-taxonomy-term="monitoring"><span class="taxonomy-label">Monitoring</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/neurophysiology/" data-taxonomy-term="neurophysiology"><span class="taxonomy-label">Neurophysiology</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/sensitivity/" data-taxonomy-term="sensitivity"><span class="taxonomy-label">Sensitivity</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/sensitivity-and-specificity/" data-taxonomy-term="sensitivity-and-specificity"><span class="taxonomy-label">Sensitivity and specificity</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/skeleton/" data-taxonomy-term="skeleton"><span class="taxonomy-label">Skeleton</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/standards/" data-taxonomy-term="standards"><span class="taxonomy-label">Standards</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/statistical-analysis/" data-taxonomy-term="statistical-analysis"><span class="taxonomy-label">Statistical analysis</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/surface-parameterization/" data-taxonomy-term="surface-parameterization"><span class="taxonomy-label">Surface Parameterization</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/task-analysis/" data-taxonomy-term="task-analysis"><span class="taxonomy-label">Task analysis</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/three-dimensional-displays/" data-taxonomy-term="three-dimensional-displays"><span class="taxonomy-label">Three-dimensional displays</span><span class="taxonomy-count">1</span></a></li>
+        
+          <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/tools/" data-taxonomy-term="tools"><span class="taxonomy-label">Tools</span><span class="taxonomy-count">1</span></a></li>
+        
+      </ul>
+    </div>
+  
+
+	
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role="main">
+            <a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href="https://akotokia.github.io/ja/blog/article/index.xml" target="_blank">
+              RSS <i class="fa fa-rss ml-2 "></i>
+            </a>
+            
+<div class="td-content">
+	<h1>Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</h1>
+	
+	<div class="td-byline mb-4">
+		
+		<time datetime="2019-03-22" class="text-muted">2019年3月22日</time>
+	</div>
+	<header class="article-meta">
+		
+		
+			
+				
+
+
+<div class="taxonomy taxonomy-terms-article taxo-categories">
+  <h5 class="taxonomy-title">Categories:</h5>
+  <ul class="taxonomy-terms">
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/categories/_8a20/" data-taxonomy-term="%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%B9%E3%82%AF"><span class="taxonomy-label">デュアルタスク</span></a></li>
+    
+  </ul>
+</div>
+
+			
+				
+
+
+<div class="taxonomy taxonomy-terms-article taxo-tags">
+  <h5 class="taxonomy-title">Tags:</h5>
+  <ul class="taxonomy-terms">
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/cognition/" data-taxonomy-term="cognition"><span class="taxonomy-label">Cognition</span></a></li>
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/diseases/" data-taxonomy-term="diseases"><span class="taxonomy-label">Diseases</span></a></li>
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/gait-analysis/" data-taxonomy-term="gait-analysis"><span class="taxonomy-label">Gait analysis</span></a></li>
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/geriatrics/" data-taxonomy-term="geriatrics"><span class="taxonomy-label">Geriatrics</span></a></li>
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/learning-artificial-intelligence/" data-taxonomy-term="learning-artificial-intelligence"><span class="taxonomy-label">Learning (artificial intelligence)</span></a></li>
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/neurophysiology/" data-taxonomy-term="neurophysiology"><span class="taxonomy-label">Neurophysiology</span></a></li>
+    
+      <li><a class="taxonomy-term" href="https://akotokia.github.io/ja/tags/statistical-analysis/" data-taxonomy-term="statistical-analysis"><span class="taxonomy-label">Statistical analysis</span></a></li>
+    
+  </ul>
+</div>
+
+			
+		
+		
+	</header>
+	<p>Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. <em>IEEE Access</em>, <strong>7</strong>:40085-40094.</p>
+<p>The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly. Although many studies have suggested that dual-task performance, in which participants perform a cognitive task while walking, is associated with cognition, they only considered the correlation between cognitive parameters and simple gait feature, such as gait speed, through the statistical analysis. We instead use a Kinect sensor to capture participants' whole-body movements and extract a rich gait feature that has the ability to exhibit different tendencies of movements between healthy and cognitive-impaired elderlies. In our experiments, a classifier based on the dual-task gait feature achieved a higher performance than the one based on the single-task feature; the performance of the rich gait feature was better than that of a simple one, and; an optimal detection performance was achieved with an MMSE cutoff score of 25. We positively validated that the proposed method could early detect elderly with lower MMSE scores based on dual-task gait feature with a promising performance. Our approach can support early and automated diagnosis of cognitive impairment.</p>
+<p>[<a href="https://doi.org/10.1109/ACCESS.2019.2906908">DOI</a>]</p>
+
+	
+
+	<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+  <li>
+    <a href="/ja/blog/article/zhou2018gas/" aria-label="前へ - Growth Assessment of School-Age Children from Dual-Task Observation" class="btn btn-primary"><span class="mr-1">←</span>前へ</a>
+  </li>
+    <a href="/ja/blog/article/aoki2021pfd/" aria-label="次へ - Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network" class="btn btn-primary">次へ<span class="ml-1">→</span></a>
+  </li>
+</ul>
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2022 aoki, kota All Rights Reserved</small>
+        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">プライバシーポリシー</a></small>
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+    crossorigin="anonymous"></script>
+
+
+
+
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: { manual: true },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+
+
+<script src='/js/tabpane-persist.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.min.ba9c5b63e19ee1cc4030005b6c4ae76f64b041ddf577e1866fabafbe901a8bf8.js" integrity="sha256-upxbY&#43;Ge4cxAMABbbErnb2SwQd31d&#43;GGb6uvvpAai/g=" crossorigin="anonymous"></script>
+
+
+
+
+  </body>
+</html>

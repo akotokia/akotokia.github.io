@@ -1,0 +1,218 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aoki, kota – article</title>
+    <link>https://akotokia.github.io/blog/article/</link>
+    <description>Recent content in article on aoki, kota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/blog/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic</title>
+      <link>https://akotokia.github.io/blog/article/wu2021dlm/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/wu2021dlm/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Matsuura, T., Okura, F., Makihara, Y., Zhou, C., Aoki, K., Mitsugami, I., and Yagi, Y. (2021). Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:150268-150282.&lt;/p&gt;
+&lt;p&gt;The Mini-Mental State Examination (MMSE) is widely used in clinics to screen for low cognitive status. However, it is limited in that it requires examiners to be present; and has fixed questions that constrain its repeated use. Thus, the MMSE cannot be used as a daily assessment to facilitate early detection of cognitive impairment. To address this issue, we developed an automated system to detect older adults with lower MMSE scores by analyzing performance during a dual task involving stepping and calculation, which can be used repeatedly because its questions were randomly created. Leveraging this advantage, this paper proposes a learning-based method to detect subjects with lower MMSE scores using multiple trials with the dual-task system. We investigated various patterns for effectively combining the features acquired during multiple continuous trials, and analyzed the sensitivity of the number N of trials on detection performance to find the optimal N via experiments. We compared our approach with previous methods and demonstrated the superiority of our strategy. Using the cross-trial feature, our approach achieved an overall performance (sensitivity+specificity) as high as 1.79 for detecting older adults whose MMSE score is equal to or less than 23 (indicate a relatively high probability of dementia), and 1.75 for detecting older adults whose MMSE score is equal to or less than 27 (indicative of a relatively high probability of mild cognitive impairment (MCI)).&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3126067&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network</title>
+      <link>https://akotokia.github.io/blog/article/aoki2021pfd/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/aoki2021pfd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Nishikawa, H., Makihara, Y., Muramatsu, D., Takemura, N., and Yagi, Y. (2021). Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:127565-127575.&lt;/p&gt;
+&lt;p&gt;This paper describes a deep learning approach to classify physically fatigued and non-fatigued gait cycles via a recurrent neural network (RNN), where each gait cycle is represented as a time series of three-dimensional coordinates of body joints. Gait cycles inherently have large intra-class variations caused by gait stance differences (e.g., which foot is supporting/swinging) at the beginning of each gait cycle, which makes it difficult to identify subtle differences induced by fatigue. To overcome these difficulties, we introduce a supporting foot-aware RNN model in a multi-task learning framework for better fatigue detection. More specifically, the RNN model has two branches of layers: one is assigned to the main task of fatigue classification and the other is assigned to the auxiliary task of estimating the first supporting foot in the gait cycles. We collected physically fatigued and non-fatigued gait cycles from eight subjects and conducted experiments to evaluate the accuracies of the proposed multi-task model in comparison to a single-task model. As a result, the proposed method achieved an overall area under curve (AUC) of 0.860 for fatigue classification in a leave-one-subject-out cross-validation, and an AUC of 0.915 in a leave-one-day-out evaluation. It can be concluded from the experimental results that a fatigue detection system for daily use, especially for screening purposes, is very feasible on the basis of the proposed approach.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3110841&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</title>
+      <link>https://akotokia.github.io/blog/article/aoki2019edl/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/aoki2019edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;7&lt;/strong&gt;:40085-40094.&lt;/p&gt;
+&lt;p&gt;The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly. Although many studies have suggested that dual-task performance, in which participants perform a cognitive task while walking, is associated with cognition, they only considered the correlation between cognitive parameters and simple gait feature, such as gait speed, through the statistical analysis. We instead use a Kinect sensor to capture participants&#39; whole-body movements and extract a rich gait feature that has the ability to exhibit different tendencies of movements between healthy and cognitive-impaired elderlies. In our experiments, a classifier based on the dual-task gait feature achieved a higher performance than the one based on the single-task feature; the performance of the rich gait feature was better than that of a simple one, and; an optimal detection performance was achieved with an MMSE cutoff score of 25. We positively validated that the proposed method could early detect elderly with lower MMSE scores based on dual-task gait feature with a promising performance. Our approach can support early and automated diagnosis of cognitive impairment.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2019.2906908&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Growth Assessment of School-Age Children from Dual-Task Observation</title>
+      <link>https://akotokia.github.io/blog/article/zhou2018gas/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/zhou2018gas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zhou, C., Mitsugami, I., Okura, F., Aoki, K., and Yagi, Y. (2018). Growth Assessment of School-Age Children from Dual-Task Observation. &lt;em&gt;ITE Trans. Media Technol. Appl.&lt;/em&gt;, &lt;strong&gt;6&lt;/strong&gt;(4):286-296.&lt;/p&gt;
+&lt;p&gt;Conventional approaches to the assessment of growth among children involve manual evaluation and treat different aspects of growth status separately. In contrast, this study presents an automated method for assessing growth status that considers various aspects of growth simultaneously. We first applied the dual-task paradigm (where two tasks are performed simultaneously) to collect data on anthropometric, kinematic, and cognitive aspects of growth at the same time. With the collected data on a large number of typically developing individuals, we constructed a statistical model of growth features and ages and also estimated participants&#39; ages using regression analysis. By comparing the value for a participant to the average level of performance, we were able to provide an initial judgment of a child&amp;rsquo;s growth status. The experiment results demonstrated that, among children, the growth features developed with age and that the estimation of growth status using this model was feasible.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3169/mta.6.286&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Automatic Collection of Dual-task Human Behavior for Analysis of Cognitive Function</title>
+      <link>https://akotokia.github.io/blog/article/okura2018acd/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/okura2018acd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Okura, F., Mitsugami, I., Niwa, M., Aoki, K., Zhou, C., and Yagi, Y. (2018). Automatic Collection of Dual-task Human Behavior for Analysis of Cognitive Function. &lt;em&gt;ITE Trans. Media Technol. Appl.&lt;/em&gt;, &lt;strong&gt;6&lt;/strong&gt;(2):138-150.&lt;/p&gt;
+&lt;p&gt;The performance of dual task, simultaneously performing two tasks, is a useful measure of a person&amp;rsquo;s cognitive abilities because it creates a heavier load on the brain than single tasks. Large-scale datasets of dual-task behavior are required to quantitatively analyze the relationships among dual-task performance, cognitive functions, and personal attributes such as age. We present an automatic data collection system for dual-task behavior that can be installed in public spaces without an operator in attendance. The system is designed as an entertainment kiosk to attract participants. We used the system to collect a large-scale dataset consisting of more than 70,000 sessions of dual-task behavior, in conjunction with a long-running exhibition in a science museum. The resultant dataset, which includes sensor data such as RGB-D image sequences, can be used for learning- and vision-based investigations of human cognitive functions.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3169/mta.6.138&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Constraints Optimization for Minimizing Stretch in Bounded-Parameterization</title>
+      <link>https://akotokia.github.io/blog/article/dechvijankit2016com/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/dechvijankit2016com/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2016). Constraints Optimization for Minimizing Stretch in Bounded-Parameterization. &lt;em&gt;J. Comput. Sci.&lt;/em&gt;, &lt;strong&gt;12&lt;/strong&gt;(9):436-447.&lt;/p&gt;
+&lt;p&gt;In a mesh parameterization process that generates one-to-one mapping information between a three-dimensional surface and a two-dimensional plane, we need to set some constraint positions in the solving system to define a specific location or size of the mapping plane. In this study, we will discuss how to perform a bounded-parameterization that minimizes distortion based on changing of constraints setting in the solving system. We introduce a series of experiments focusing on constraints optimization to deliver the optimal mapping information with less computational cost and time. Our proposed methods can reduce more than half of calculation costs and times from traditional method while maintaining the optimal mapping information.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3844/jcssp.2016.436.447&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: 3D Gray Level Co-occurrence Matrix Based Classification of Favor Benign and Borderline Types in Follicular Neoplasm Images</title>
+      <link>https://akotokia.github.io/blog/article/boonsiri2016glc/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/boonsiri2016glc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Boonsiri, O., Washiya, K., Aoki, K., and Nagahashi, H. (2016). 3D Gray Level Co-occurrence Matrix Based Classification of Favor Benign and Borderline Types in Follicular Neoplasm Images. &lt;em&gt;J. Biosci. Med.&lt;/em&gt;, &lt;strong&gt;4&lt;/strong&gt;(3):51-56.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4236/jbm.2016.43009&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Automated Dynamic Cellular Analysis in Time-Lapse Microscopy</title>
+      <link>https://akotokia.github.io/blog/article/aotake2016adc/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/aotake2016adc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aotake, S., Cho, S., Atupelage, C., Aoki, K., Nagahashi, H., and Kiga, D. (2016). Automated Dynamic Cellular Analysis in Time-Lapse Microscopy. &lt;em&gt;J. Biosci. Med.&lt;/em&gt;, &lt;strong&gt;4&lt;/strong&gt;(3):44-50.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4236/jbm.2016.43008&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Multispectral Band Analysis: Application on the Classification of Hepatocellular Carcinoma Cells in High-Magnification Histopathological Images</title>
+      <link>https://akotokia.github.io/blog/article/boonsiri2015mba/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/boonsiri2015mba/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Boonsiri, O., Atupelage, C., Nagahashi, H., Aoki, K., Kimura, F., and Yamaguchi, M. (2015). Multispectral Band Analysis: Application on the Classification of Hepatocellular Carcinoma Cells in High-Magnification Histopathological Images. &lt;em&gt;J. Cytol. Histol.&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4172/2157-7099.S3-006&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: An Efficient Liver-Segmentation System Based on a Level-Set Method and Consequent Processes</title>
+      <link>https://akotokia.github.io/blog/article/narkbuakaew2014els/</link>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/narkbuakaew2014els/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2014). An Efficient Liver-Segmentation System Based on a Level-Set Method and Consequent Processes. &lt;em&gt;J. Biomed. Sci. Eng.&lt;/em&gt;, &lt;strong&gt;7&lt;/strong&gt;(12):994-1004.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.4236/jbise.2014.712097&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Bone Segmentation in CT-Liver Images Using K-Means Clustering for 3D Rib Cage Surface-Modeling</title>
+      <link>https://akotokia.github.io/blog/article/narkbuakaew2014bsc/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/narkbuakaew2014bsc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2014). Bone Segmentation in CT-Liver Images Using K-Means Clustering for 3D Rib Cage Surface-Modeling. &lt;em&gt;WSEAS Trans. Biol. Biomed.&lt;/em&gt;, &lt;strong&gt;11&lt;/strong&gt;:183-193.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Visual Correspondence Grouping via Local Consistent Neighborhood</title>
+      <link>https://akotokia.github.io/blog/article/aoki2013vcg/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/aoki2013vcg/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K. and Nagahashi, H. (2013). Visual Correspondence Grouping via Local Consistent Neighborhood. &lt;em&gt;IEICE Trans. Inf. &amp;amp; Syst.&lt;/em&gt;, &lt;strong&gt;E96-D&lt;/strong&gt;(6):1351-1358.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1587/transinf.E96.D.1351&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Photograph Based Pair-matching Recognition of Human Faces</title>
+      <link>https://akotokia.github.io/blog/article/yao2011pbp/</link>
+      <pubDate>Mon, 26 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/yao2011pbp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Yao, M., Aoki, K., and Nagahashi, H. (2011). Photograph Based Pair-matching Recognition of Human Faces. &lt;em&gt;Int. J. Comput. Electr. Autom. Control Inf. Eng.&lt;/em&gt;, &lt;strong&gt;5&lt;/strong&gt;(12):1716-1723.&lt;/p&gt;
+&lt;p&gt;In this paper, a novel system recognition of human faces without using face different color photographs is proposed. It mainly in face detection, normalization and recognition. Foot method of combination of Haar-like face determined segmentation and region-based histogram stretchi (RHST) is proposed to achieve more accurate perf using Haar. Apart from an effective angle norm side-face (pose) normalization, which is almost a might be important and beneficial for the prepr introduced. Then histogram-based and photom normalization methods are investigated and ada retinex (ASR) is selected for its satisfactory illumin Finally, weighted multi-block local binary pattern with 3 distance measures is applied for pair-matching recognition. Experimental results show its advantageous perfo with PCA and multi-block LBP, based on a principle.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

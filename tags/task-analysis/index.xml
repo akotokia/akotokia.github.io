@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aoki, kota – Task analysis</title>
+    <link>https://akotokia.github.io/tags/task-analysis/</link>
+    <description>Recent content in Task analysis on aoki, kota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/tags/task-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic</title>
+      <link>https://akotokia.github.io/blog/article/wu2021dlm/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/wu2021dlm/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Matsuura, T., Okura, F., Makihara, Y., Zhou, C., Aoki, K., Mitsugami, I., and Yagi, Y. (2021). Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:150268-150282.&lt;/p&gt;
+&lt;p&gt;The Mini-Mental State Examination (MMSE) is widely used in clinics to screen for low cognitive status. However, it is limited in that it requires examiners to be present; and has fixed questions that constrain its repeated use. Thus, the MMSE cannot be used as a daily assessment to facilitate early detection of cognitive impairment. To address this issue, we developed an automated system to detect older adults with lower MMSE scores by analyzing performance during a dual task involving stepping and calculation, which can be used repeatedly because its questions were randomly created. Leveraging this advantage, this paper proposes a learning-based method to detect subjects with lower MMSE scores using multiple trials with the dual-task system. We investigated various patterns for effectively combining the features acquired during multiple continuous trials, and analyzed the sensitivity of the number N of trials on detection performance to find the optimal N via experiments. We compared our approach with previous methods and demonstrated the superiority of our strategy. Using the cross-trial feature, our approach achieved an overall performance (sensitivity+specificity) as high as 1.79 for detecting older adults whose MMSE score is equal to or less than 23 (indicate a relatively high probability of dementia), and 1.75 for detecting older adults whose MMSE score is equal to or less than 27 (indicative of a relatively high probability of mild cognitive impairment (MCI)).&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3126067&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

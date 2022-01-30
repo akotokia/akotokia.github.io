@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>青木 工太 – Geodesic Distance</title>
+    <link>https://akotokia.github.io/ja/tags/geodesic-distance/</link>
+    <description>Recent content in Geodesic Distance on 青木 工太</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 11 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/ja/tags/geodesic-distance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance</title>
+      <link>https://akotokia.github.io/ja/blog/international/dechvijankit2015hsc/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/international/dechvijankit2015hsc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2015). A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance. &lt;em&gt;Proc. Int. Conf. Comput. Graphics Theory Appl.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Topology is a property of surfaces that plays a major role in computer graphics. Processing or analysis between two surfaces generally requires both of them to be in same topology. There are many tools or applications such as parameterization or remeshing that require disk topology surfaces as input. Therefore, it is important to convert any surfaces to be same as a topological disk. The common procedure is to define a graph of edges inside the surface that should be split into two edges and to turn the surface into topological disk. We call it as homotopy cutting. Problems become more difficult when dealing with high genus surfaces such as a torus. Based on a novel method, we present an enhancement method to generate a cut graph in high-genus surface for homotopy cutting. By using geodesic properties of each edge, we can generate equally or more suitable edge-graph than original method while keeping similar performance and stability as original one.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.5220/0005302601300137&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

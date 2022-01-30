@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aoki, kota – Statistical analysis</title>
+    <link>https://akotokia.github.io/tags/statistical-analysis/</link>
+    <description>Recent content in Statistical analysis on aoki, kota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/tags/statistical-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait</title>
+      <link>https://akotokia.github.io/blog/article/aoki2019edl/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/aoki2019edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Ngo, T., Mitsugami, I., Okura, F., Niwa, M., Makihara, Y., Yagi, Y., and Kazui, H. (2019). Early Detection of Lower MMSE Scores in Elderly Based on Dual-Task Gait. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;7&lt;/strong&gt;:40085-40094.&lt;/p&gt;
+&lt;p&gt;The dual-task paradigm is a promising procedure for estimating cognitive status and may also be collaterally used to reduce cognitive decline and prevent dementia. In this paper, we use the mini-mental state exam (MMSE) to the assess cognitive status in the elderly as a reference and investigate the potential of using machine learning for early detecting cognitive impairment in the elderly. Although many studies have suggested that dual-task performance, in which participants perform a cognitive task while walking, is associated with cognition, they only considered the correlation between cognitive parameters and simple gait feature, such as gait speed, through the statistical analysis. We instead use a Kinect sensor to capture participants&#39; whole-body movements and extract a rich gait feature that has the ability to exhibit different tendencies of movements between healthy and cognitive-impaired elderlies. In our experiments, a classifier based on the dual-task gait feature achieved a higher performance than the one based on the single-task feature; the performance of the rich gait feature was better than that of a simple one, and; an optimal detection performance was achieved with an MMSE cutoff score of 25. We positively validated that the proposed method could early detect elderly with lower MMSE scores based on dual-task gait feature with a promising performance. Our approach can support early and automated diagnosis of cognitive impairment.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2019.2906908&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

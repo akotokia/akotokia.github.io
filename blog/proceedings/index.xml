@@ -1,0 +1,357 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aoki, kota – proceedings</title>
+    <link>https://akotokia.github.io/blog/proceedings/</link>
+    <description>Recent content in proceedings on aoki, kota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://akotokia.github.io/blog/proceedings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
+      <link>https://akotokia.github.io/blog/proceedings/wu2021edl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/wu2021edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Time-lapse Image Analysis for Rapid Drug Susceptibility Testing</title>
+      <link>https://akotokia.github.io/blog/proceedings/grushnikov2019tia/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/grushnikov2019tia/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Grushnikov, A., Hanada, S., Matsumoto, Y., Aoki, K., and Yagi, Y. (2019). Time-lapse Image Analysis for Rapid Drug Susceptibility Testing. &lt;em&gt;Proc. Int. Workshop Frontiers Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</title>
+      <link>https://akotokia.github.io/blog/proceedings/zhou2019aed/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/zhou2019aed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zhou, C., Mitsugami, I., Aoki, K., Okura, F., and Yagi, Y. (2019). Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children. &lt;em&gt;Proc. Int. Workshop Robust Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children</title>
+      <link>https://akotokia.github.io/blog/proceedings/zhou2018aed/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/zhou2018aed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zhou, C., Mitsugami, I., Aoki, K., Okura, F., and Yagi, Y. (2018). Age Estimation from Dual-Task Behavior for Comprehensive Growth Assessment of Children. &lt;em&gt;Proc. Int. Workshop Frontiers Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Cell Region Extraction from Microscopic Images of Brain Cortex Slices</title>
+      <link>https://akotokia.github.io/blog/proceedings/ishikawa2016cre/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/ishikawa2016cre/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Ishikawa, Y., Washiya, K., Nagahashi, H., and Aoki, K. (2016). Cell Region Extraction from Microscopic Images of Brain Cortex Slices. &lt;em&gt;Proc. Int. Workshop Robust Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Brain Tumor Classification of Microscopy Images Using Deep Residual Learning</title>
+      <link>https://akotokia.github.io/blog/proceedings/ishikawa2016btc/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/ishikawa2016btc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Ishikawa, Y., Washiya, K., Aoki, K., and Nagahashi, H. (2016). Brain Tumor Classification of Microscopy Images Using Deep Residual Learning. &lt;em&gt;Proc. SPIE&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;The crisis rate of brain tumor is about one point four in ten thousands. In general, cytotechnologists take charge of cytologic diagnosis. However, the number of cytotechnologists who can diagnose brain tumors is not sufficient, because of the necessity of highly specialized skill. Computer-Aided Diagnosis by computational image analysis may dissolve the shortage of experts and support objective pathological examinations. Our purpose is to support a diagnosis from a microscopy image of brain cortex and to identify brain tumor by medical image processing. In this study, we analyze Astrocytes that is a type of glia cell of central nerve system. It is not easy for an expert to discriminate brain tumor correctly since the difference between astrocytes and low grade astrocytoma (tumors formed from Astrocyte) is very slight. In this study, we present a novel method to segment cell regions robustly using BING objectness estimation and to classify brain tumors using deep convolutional neural networks (CNNs) constructed by deep residual learning. BING is a fast object detection method and we use pretrained BING model to detect brain cells. After that, we apply a sequence of post-processing like Voronoi diagram, binarization, watershed transform to obtain fine segmentation. For classification using CNNs, a usual way of data argumentation is applied to brain cells database. Experimental results showed 98.5% accuracy of classification and 98.2% accuracy of segmentation.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1117/12.2242711&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Incorrect Skeletal Parts Recovering Method Using 3D Space Division and MoCap Data</title>
+      <link>https://akotokia.github.io/blog/proceedings/im2016isp/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/im2016isp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Im, H., Nagahashi, H., and Aoki, K. (2016). Incorrect Skeletal Parts Recovering Method Using 3D Space Division and MoCap Data. &lt;em&gt;Proc. IASTED Int. Conf. Model. Identif. Control&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Over the past few decades many researchers have been studying about human motion recognition. Human motion recognition can apply a various application in real world. Recently, the acquirement of the skeleton has been become a more easy with the release of Kinect which offer the estimated skeleton without marker. At the same time, the skeleton based human motion recognition and description method are proposed as a various method. However, this skeleton information is easy to lose the target joint and recognize the incorrect joint position information. In contrast, motion capture system can create a motion capture data which is including more natural and correct joint position. But the task to create a motion capture (MoCap) data is time consuming and labor intensive. Thus, we propose the application to offer recovered motion without MoCap data and recovering method using 3D space division and MoCap data. We extract a sequence of the joint trajectory by using 3D motion space. And we use a dynamic time warping algorithm (DTW) to find a best estimate joint in Kinect skeleton and a corresponding MoCap frame. Then, we repair the incorrect Kinect joint position based on corresponding MoCap data.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.2316/P.2016.830-032&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance</title>
+      <link>https://akotokia.github.io/blog/proceedings/dechvijankit2015hsc/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/dechvijankit2015hsc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2015). A Homotopy Surface Cutting Using Paths Crossing in Geodesic Distance. &lt;em&gt;Proc. Int. Conf. Comput. Graphics Theory Appl.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Topology is a property of surfaces that plays a major role in computer graphics. Processing or analysis between two surfaces generally requires both of them to be in same topology. There are many tools or applications such as parameterization or remeshing that require disk topology surfaces as input. Therefore, it is important to convert any surfaces to be same as a topological disk. The common procedure is to define a graph of edges inside the surface that should be split into two edges and to turn the surface into topological disk. We call it as homotopy cutting. Problems become more difficult when dealing with high genus surfaces such as a torus. Based on a novel method, we present an enhancement method to generate a cut graph in high-genus surface for homotopy cutting. By using geodesic properties of each edge, we can generate equally or more suitable edge-graph than original method while keeping similar performance and stability as original one.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.5220/0005302601300137&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Dense Motion Analysis and Segmentation of Ultrasound Images</title>
+      <link>https://akotokia.github.io/blog/proceedings/yokoyama2015dma/</link>
+      <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/yokoyama2015dma/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Yokoyama, R., Aoki, K., and Nagahashi, H. (2015). Dense Motion Analysis and Segmentation of Ultrasound Images. &lt;em&gt;Proc. SPIE&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1117/12.2078856&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Integration of Modified K-Means Clustering and Morphological Operations for Multi-Organ Segmentation in CT Liver-Images</title>
+      <link>https://akotokia.github.io/blog/proceedings/narkbuakaew2014imk/</link>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/narkbuakaew2014imk/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2014). Integration of Modified K-Means Clustering and Morphological Operations for Multi-Organ Segmentation in CT Liver-Images. &lt;em&gt;Proc. Int. Conf. Biol. Biomed. Eng.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Level-Set Image Segmentation Based on Integration of Artificial Balloon and Signed Pressure Forces</title>
+      <link>https://akotokia.github.io/blog/proceedings/narkbuakaew2014lsi/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/narkbuakaew2014lsi/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2014). Level-Set Image Segmentation Based on Integration of Artificial Balloon and Signed Pressure Forces. &lt;em&gt;Proc. IIEEJ Int. Workshop on Image Electron. Vis. Comput.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: On-Line Algorithm Based Retrieval for Human Motion Data</title>
+      <link>https://akotokia.github.io/blog/proceedings/im2014lab/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/im2014lab/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Im, H., Nagahashi, H., and Aoki, K. (2014). On-Line Algorithm Based Retrieval for Human Motion Data. &lt;em&gt;Proc. IIEEJ Int. Workshop on Image Electron. Vis. Comput.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Significance of Multispectral Band for Classification of Cancer Cells in Hepatocellular Carcinoma from Histophatology Images Using Gabor Descriptor</title>
+      <link>https://akotokia.github.io/blog/proceedings/boonsiri2014smb/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/boonsiri2014smb/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Boonsiri, O., Atupelage, C., Nagahashi, H., Aoki, K., Kimura, F., and Yamaguchi, M. (2014). Significance of Multispectral Band for Classification of Cancer Cells in Hepatocellular Carcinoma from Histophatology Images Using Gabor Descriptor. &lt;em&gt;Proc. IIEEJ Int. Workshop on Image Electron. Vis. Comput.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Liver Segmentation Based on Reaction-Diffusion Evolution and Chan-Vese Model in 4DCT</title>
+      <link>https://akotokia.github.io/blog/proceedings/narkbuakaew2013lsb/</link>
+      <pubDate>Mon, 16 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/narkbuakaew2013lsb/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Narkbuakaew, W., Nagahashi, H., Aoki, K., and Kubota, Y. (2013). Liver Segmentation Based on Reaction-Diffusion Evolution and Chan-Vese Model in 4DCT. &lt;em&gt;Proc. Int. Aizu Conf. Biol. Inf. Technol.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1007/978-3-642-54121-6_12&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Segmentation-based Illumination Normalization for Face Detection</title>
+      <link>https://akotokia.github.io/blog/proceedings/yao2013sin/</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/yao2013sin/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Yao, M., Aoki, K., and Nagahashi, H. (2013). Segmentation-based Illumination Normalization for Face Detection. &lt;em&gt;Proc. IEEE Int. Workshop Comput. Intell. Appl.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;Face detection is an important research topic in the field of computer vision. Illumination problem is one of the most important aspects impeding the effectiveness of face detection. The well known Haar-like face detector developed by Viola and Jones is also largely weakened under adverse lighting conditions such as backlighting or uneven lighting. In this paper, a novel segmentation-based illumination normalization method is presented for the purpose of compensating non-uniform illuminations and increasing the robustness of Haar-like face detector. First Otsu method is employed to segment the input image. Then the proposed illumination normalization method called Half Histogram Truncation and Stretching (HHTS) is applied to locally attenuate the illumination and enhance the visibility of local patterns (facial structures). Finally Haar-like face detector is executed to locate faces. Experimental results show that it can remove non-uniform illuminations efficiently and significantly increase the performance of the original Haar-like face detector.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/IWCIA.2013.6624793&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: An Optimization of Square Parameterization</title>
+      <link>https://akotokia.github.io/blog/proceedings/dechvijankit2013osp/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/dechvijankit2013osp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2013). An Optimization of Square Parameterization. &lt;em&gt;Proc. Int. Conf. Central Eur. Comput. Graphics Vis. Comput. Vis.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Fast Way to Create Seam Boundary for Square Parameterization with Low-distortion</title>
+      <link>https://akotokia.github.io/blog/proceedings/dechvijankit2012fwc/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/dechvijankit2012fwc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dechvijankit, A., Nagahashi, H., and Aoki, K. (2012). Fast Way to Create Seam Boundary for Square Parameterization with Low-distortion. &lt;em&gt;Proc. Int. Conf. Comput. Graphics Theory Appl.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Common Visual Pattern Detection by Mixture Particle Filtering</title>
+      <link>https://akotokia.github.io/blog/proceedings/aoki2011cvp/</link>
+      <pubDate>Mon, 13 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/aoki2011cvp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K. and Nagahashi, H. (2011). Common Visual Pattern Detection by Mixture Particle Filtering. &lt;em&gt;Proc. IAPR Conf. Mach. Vis. Appl.&lt;/em&gt;..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: A Multilevel Surface Modeling Method and Its Application to Range Image Registration</title>
+      <link>https://akotokia.github.io/blog/proceedings/aoki2009msm/</link>
+      <pubDate>Mon, 14 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/aoki2009msm/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Sakuraba, Y., and Nagahashi, H. (2009). A Multilevel Surface Modeling Method and Its Application to Range Image Registration. &lt;em&gt;Proc. Int. Conf. Virtual Reality Continuum Appl. Ind.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1145/1670252.1670300&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Pulmonary Motion Tracking from 4D-CT Images Using a 3D-KLT Tracker</title>
+      <link>https://akotokia.github.io/blog/proceedings/kubota2009pmt/</link>
+      <pubDate>Sun, 25 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/kubota2009pmt/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Kubota, Y., Aoki, K., Nagahashi, H., and Minohara, S. (2009). Pulmonary Motion Tracking from 4D-CT Images Using a 3D-KLT Tracker. &lt;em&gt;Proc. IEEE NSS/MIC Conf. Rec.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/NSSMIC.2009.5401791&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Cross-Parameterization for Triangular Meshes with Semantic Features</title>
+      <link>https://akotokia.github.io/blog/proceedings/matsui2007cpt/</link>
+      <pubDate>Mon, 29 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/matsui2007cpt/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Matsui, S., Aoki, K., Nagahashi, H., and Morooka, K. (2007). Cross-Parameterization for Triangular Meshes with Semantic Features. &lt;em&gt;Proc. Pacific Conf. Comput. Graphics Appl.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/PG.2007.21&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Bayesian Image Segmentation Using MRF&#39;s Combined with Hierarchical Prior Models</title>
+      <link>https://akotokia.github.io/blog/proceedings/aoki2005bis/</link>
+      <pubDate>Sun, 19 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/aoki2005bis/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K. and Nagahashi, H. (2005). Bayesian Image Segmentation Using MRF&amp;rsquo;s Combined with Hierarchical Prior Models. &lt;em&gt;Proc. Scand. Conf. Image Anal.&lt;/em&gt;..&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1007/11499145_8&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Animation Synthesis by Observation and Learning</title>
+      <link>https://akotokia.github.io/blog/proceedings/aoki2003aso/</link>
+      <pubDate>Wed, 16 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/aoki2003aso/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Morooka, K., Hasegawa, O., and Nagahashi, H. (2003). Animation Synthesis by Observation and Learning. &lt;em&gt;Proc. IEEE Int. Symp. Comput. Intell. Robot. Automat.&lt;/em&gt;, &lt;strong&gt;3&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/CIRA.2003.1222177&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
