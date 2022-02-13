@@ -27,8 +27,18 @@
                 href="https://akotokia.github.io/ja/docs/8a20/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
@@ -234,8 +244,18 @@
                 href="https://akotokia.github.io/ja/tags/data-mining/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/wu2021edl/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/wu2021edl/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/wu2021edl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/wu2021edl/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/tags/machine-learning/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
@@ -421,14 +441,34 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/nishikawa2019a/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/grushnikov2019tia/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/grushnikov2019tia/</loc>
     <lastmod>2019-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/grushnikov2019tia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/grushnikov2019tia/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/nagano2019a/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/zhou2019aed/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/zhou2019aed/</loc>
     <lastmod>2019-01-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/zhou2019aed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/zhou2019aed/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/article/zhou2018gas/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
@@ -459,8 +499,18 @@
                 href="https://akotokia.github.io/ja/blog/article/okura2018acd/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/zhou2018aed/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/zhou2018aed/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/zhou2018aed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/zhou2018aed/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/nagano2017a/</loc>
     <lastmod>2017-05-10T00:00:00+00:00</lastmod>
@@ -468,8 +518,18 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/ishikawa2017a/</loc>
     <lastmod>2017-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/ishikawa2016cre/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/ishikawa2016cre/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/ishikawa2016cre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/ishikawa2016cre/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/article/dechvijankit2016com/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
@@ -484,8 +544,18 @@
                 href="https://akotokia.github.io/ja/blog/article/dechvijankit2016com/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/ishikawa2016btc/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/ishikawa2016btc/</loc>
     <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/ishikawa2016btc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/ishikawa2016btc/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/article/xing2016epe/</loc>
     <lastmod>2016-06-15T00:00:00+00:00</lastmod>
@@ -525,8 +595,18 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/aotake2016b/</loc>
     <lastmod>2016-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/im2016isp/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/im2016isp/</loc>
     <lastmod>2016-02-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/im2016isp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/im2016isp/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/ishikawa2016a/</loc>
     <lastmod>2016-02-06T00:00:00+00:00</lastmod>
@@ -556,8 +636,18 @@
                 href="https://akotokia.github.io/ja/blog/article/boonsiri2015mba/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/dechvijankit2015hsc/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/dechvijankit2015hsc/</loc>
     <lastmod>2015-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/dechvijankit2015hsc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/dechvijankit2015hsc/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/tags/geodesic-distance/</loc>
     <lastmod>2015-03-11T00:00:00+00:00</lastmod>
@@ -617,8 +707,18 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/yokoyama2015a/</loc>
     <lastmod>2015-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/yokoyama2015dma/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/yokoyama2015dma/</loc>
     <lastmod>2015-02-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/yokoyama2015dma/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/yokoyama2015dma/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/article/narkbuakaew2014els/</loc>
     <lastmod>2014-10-21T00:00:00+00:00</lastmod>
@@ -645,8 +745,18 @@
     <loc>https://akotokia.github.io/ja/blog/article/yao2014inb/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/narkbuakaew2014imk/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/narkbuakaew2014imk/</loc>
     <lastmod>2014-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/narkbuakaew2014imk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/narkbuakaew2014imk/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/minamida2014a/</loc>
     <lastmod>2014-03-06T00:00:00+00:00</lastmod>
@@ -682,17 +792,57 @@
                 href="https://akotokia.github.io/ja/blog/article/narkbuakaew2014bsc/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/narkbuakaew2014lsi/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/narkbuakaew2014lsi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/narkbuakaew2014lsi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/narkbuakaew2014lsi/"
+                />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/im2014lab/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/im2014lab/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/im2014lab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/im2014lab/"
+                />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/boonsiri2014smb/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/boonsiri2014smb/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/boonsiri2014smb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/boonsiri2014smb/"
+                />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/narkbuakaew2013lsb/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/narkbuakaew2013lsb/</loc>
     <lastmod>2013-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/narkbuakaew2013lsb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/narkbuakaew2013lsb/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/tags/face-recognition/</loc>
     <lastmod>2013-07-13T00:00:00+00:00</lastmod>
@@ -746,11 +896,31 @@
                 href="https://akotokia.github.io/ja/tags/lighting/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/yao2013sin/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/yao2013sin/</loc>
     <lastmod>2013-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/yao2013sin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/yao2013sin/"
+                />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/dechvijankit2013osp/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/dechvijankit2013osp/</loc>
     <lastmod>2013-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/dechvijankit2013osp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/dechvijankit2013osp/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/boonsiri2013smb/</loc>
     <lastmod>2013-06-22T00:00:00+00:00</lastmod>
@@ -792,8 +962,18 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/miyazaki2012b/</loc>
     <lastmod>2012-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/dechvijankit2012fwc/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/dechvijankit2012fwc/</loc>
     <lastmod>2012-02-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/dechvijankit2012fwc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/dechvijankit2012fwc/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/article/yao2011pbp/</loc>
     <lastmod>2011-12-26T00:00:00+00:00</lastmod>
@@ -808,8 +988,18 @@
                 href="https://akotokia.github.io/ja/blog/article/yao2011pbp/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/aoki2011cvp/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/aoki2011cvp/</loc>
     <lastmod>2011-06-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/aoki2011cvp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/aoki2011cvp/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/aoki2011a/</loc>
     <lastmod>2011-03-17T00:00:00+00:00</lastmod>
@@ -856,11 +1046,31 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/miyazaki2010a/</loc>
     <lastmod>2010-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/aoki2009msm/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/aoki2009msm/</loc>
     <lastmod>2009-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/aoki2009msm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/aoki2009msm/"
+                />
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/kubota2009pmt/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/kubota2009pmt/</loc>
     <lastmod>2009-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/kubota2009pmt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/kubota2009pmt/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/ideue2009b/</loc>
     <lastmod>2009-07-20T00:00:00+00:00</lastmod>
@@ -931,8 +1141,18 @@
     <loc>https://akotokia.github.io/ja/blog/domestic/sakuraba2007a/</loc>
     <lastmod>2007-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/matsui2007cpt/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/matsui2007cpt/</loc>
     <lastmod>2007-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/matsui2007cpt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/matsui2007cpt/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/osada2007a/</loc>
     <lastmod>2007-05-18T00:00:00+00:00</lastmod>
@@ -967,14 +1187,34 @@
     <loc>https://akotokia.github.io/ja/blog/article/aoki2005b/</loc>
     <lastmod>2005-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/aoki2005bis/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/aoki2005bis/</loc>
     <lastmod>2005-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/aoki2005bis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/aoki2005bis/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/article/aoki2004bla/</loc>
     <lastmod>2004-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akotokia.github.io/ja/blog/international/aoki2003aso/</loc>
+    <loc>https://akotokia.github.io/ja/blog/proceedings/aoki2003aso/</loc>
     <lastmod>2003-07-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/aoki2003aso/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/aoki2003aso/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/domestic/aoki2003c/</loc>
     <lastmod>2003-06-11T00:00:00+00:00</lastmod>
