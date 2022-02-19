@@ -245,6 +245,19 @@
                 href="https://akotokia.github.io/tags/task-analysis/"
                 />
   </url><url>
+    <loc>https://akotokia.github.io/categories/_e030/</loc>
+    <lastmod>2021-09-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/categories/_e030/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/categories/_e030/"
+                />
+  </url><url>
     <loc>https://akotokia.github.io/blog/article/aoki2021pfd/</loc>
     <lastmod>2021-09-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -974,18 +987,6 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/about/</loc>
-  </url><url>
-    <loc>https://akotokia.github.io/categories/_e030/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/categories/_e030/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/categories/_e030/"
-                />
   </url><url>
     <loc>https://akotokia.github.io/docs/</loc>
     <xhtml:link
