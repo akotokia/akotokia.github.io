@@ -1,9 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>青木 工太 – Physical fatigue detection</title>
+    <title>青木 工太 – 身体疲労検出</title>
     <link>https://akotokia.github.io/ja/categories/_e030/</link>
-    <description>Recent content in Physical fatigue detection on 青木 工太</description>
+    <description>Recent content in 身体疲労検出 on 青木 工太</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://akotokia.github.io/ja/categories/_e030/index.xml" rel="self" type="application/rss+xml" />
     
@@ -12,6 +13,22 @@
         
       
     
+    
+    <item>
+      <title>Blog: Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network</title>
+      <link>https://akotokia.github.io/ja/blog/article/aoki2021pfd/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/aoki2021pfd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aoki, K., Nishikawa, H., Makihara, Y., Muramatsu, D., Takemura, N., and Yagi, Y. (2021). Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:127565-127575.&lt;/p&gt;
+&lt;p&gt;This paper describes a deep learning approach to classify physically fatigued and non-fatigued gait cycles via a recurrent neural network (RNN), where each gait cycle is represented as a time series of three-dimensional coordinates of body joints. Gait cycles inherently have large intra-class variations caused by gait stance differences (e.g., which foot is supporting/swinging) at the beginning of each gait cycle, which makes it difficult to identify subtle differences induced by fatigue. To overcome these difficulties, we introduce a supporting foot-aware RNN model in a multi-task learning framework for better fatigue detection. More specifically, the RNN model has two branches of layers: one is assigned to the main task of fatigue classification and the other is assigned to the auxiliary task of estimating the first supporting foot in the gait cycles. We collected physically fatigued and non-fatigued gait cycles from eight subjects and conducted experiments to evaluate the accuracies of the proposed multi-task model in comparison to a single-task model. As a result, the proposed method achieved an overall area under curve (AUC) of 0.860 for fatigue classification in a leave-one-subject-out cross-validation, and an AUC of 0.915 in a leave-one-day-out evaluation. It can be concluded from the experimental results that a fatigue detection system for daily use, especially for screening purposes, is very feasible on the basis of the proposed approach.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3110841&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>

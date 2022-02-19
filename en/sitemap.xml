@@ -28,6 +28,16 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/docs/e030/a/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/docs/e030/a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/docs/e030/a/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/blog/proceedings/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
@@ -43,8 +53,28 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/docs/e030/b/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/docs/e030/b/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/docs/e030/b/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/docs/e030/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/docs/e030/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/docs/e030/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
