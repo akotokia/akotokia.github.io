@@ -15,16 +15,16 @@
                 href="https://akotokia.github.io/blog/article/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/docs/8a20/</loc>
+    <loc>https://akotokia.github.io/docs/c1f1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://akotokia.github.io/ja/docs/8a20/"
+                href="https://akotokia.github.io/ja/docs/c1f1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akotokia.github.io/docs/8a20/"
+                href="https://akotokia.github.io/docs/c1f1/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/docs/e030/a/</loc>
@@ -62,6 +62,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://akotokia.github.io/docs/e030/b/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/docs/8a20/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/docs/8a20/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/docs/8a20/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/docs/e030/</loc>
@@ -987,6 +999,18 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/about/</loc>
+  </url><url>
+    <loc>https://akotokia.github.io/categories/_c1f1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/categories/_c1f1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/categories/_c1f1/"
+                />
   </url><url>
     <loc>https://akotokia.github.io/docs/</loc>
     <xhtml:link

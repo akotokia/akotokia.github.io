@@ -15,18 +15,6 @@
                 href="https://akotokia.github.io/ja/blog/article/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/ja/docs/8a20/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/docs/8a20/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/docs/8a20/"
-                />
-  </url><url>
     <loc>https://akotokia.github.io/ja/docs/e030/a/</loc>
     <xhtml:link
                 rel="alternate"
@@ -37,6 +25,18 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://akotokia.github.io/ja/docs/e030/a/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/ja/docs/c1f1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/docs/c1f1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/docs/c1f1/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/ja/blog/proceedings/</loc>
@@ -64,6 +64,21 @@
                 href="https://akotokia.github.io/ja/docs/e030/b/"
                 />
   </url><url>
+    <loc>https://akotokia.github.io/ja/blog/domestic/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akotokia.github.io/ja/docs/8a20/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/docs/8a20/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/docs/8a20/"
+                />
+  </url><url>
     <loc>https://akotokia.github.io/ja/docs/e030/</loc>
     <xhtml:link
                 rel="alternate"
@@ -75,9 +90,6 @@
                 hreflang="ja"
                 href="https://akotokia.github.io/ja/docs/e030/"
                 />
-  </url><url>
-    <loc>https://akotokia.github.io/ja/blog/domestic/</loc>
-    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://akotokia.github.io/ja/tags/arithmetic/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
@@ -1296,6 +1308,18 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://akotokia.github.io/ja/tags/topology./"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/ja/categories/_c1f1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/categories/_c1f1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/categories/_c1f1/"
                 />
   </url>
 </urlset>
