@@ -4,6 +4,7 @@
     <link>https://akotokia.github.io/ja/categories/_c1f1/</link>
     <description>Recent content in 薬剤耐性菌 on 青木 工太</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://akotokia.github.io/ja/categories/_c1f1/index.xml" rel="self" type="application/rss+xml" />
     
@@ -12,6 +13,22 @@
         
       
     
+    
+    <item>
+      <title>Blog: Identification of Bacterial Drug-Resistant Cells by the Convolutional Neural Network in Transmission Electron Microscope Images</title>
+      <link>https://akotokia.github.io/ja/blog/article/nishino2022ibd/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/nishino2022ibd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Hayashi-Nishino, M., Aoki, K., Kishimoto, A., Takeuchi, Y., Fukushima, A., Uchida, K., Echigo, T., Yagi, Y., Hirose, M., Iwasaki, K., Shin&amp;rsquo;ya, E., Washio, T., Furusawa, C., and Nishino, K. (2022). Identification of Bacterial Drug-Resistant Cells by the Convolutional Neural Network in Transmission Electron Microscope Images. &lt;em&gt;Front. Microbiol.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The emergence of bacteria that are resistant to antibiotics is common in areas where antibiotics are used widely. The current standard procedure for detecting bacterial drug resistance is based on bacterial growth under antibiotic treatments. Here we describe the morphological changes in enoxacin-resistant Escherichia coli cells and the computational method used to identify these resistant cells in transmission electron microscopy (TEM) images without using antibiotics. Our approach was to create patches from TEM images of enoxacin-sensitive and enoxacin-resistant E. coli strains, use a convolutional neural network for patch classification, and identify the strains on the basis of the classification results. The proposed method was highly accurate in classifying cells, achieving an accuracy rate of 0.94. Using a gradient-weighted class activation mapping to visualize the region of interest, enoxacin-resistant and enoxacin-sensitive cells were characterized by comparing differences in the envelope. Moreover, Pearson&amp;rsquo;s correlation coefficients suggested that four genes, including lpp, the gene encoding the major outer membrane lipoprotein, were strongly associated with the image features of enoxacin-resistant cells.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.3389/fmicb.2022.839718&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>

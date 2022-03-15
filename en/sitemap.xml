@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://akotokia.github.io/blog/article/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -89,7 +89,7 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -99,6 +99,58 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://akotokia.github.io/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/categories/_c1f1/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/categories/_c1f1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/categories/_c1f1/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/categories/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/blog/article/nishino2022ibd/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/article/nishino2022ibd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/article/nishino2022ibd/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/blog/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/tags/arithmetic/</loc>
@@ -112,19 +164,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://akotokia.github.io/tags/arithmetic/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/categories/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/categories/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/tags/dementia/</loc>
@@ -190,19 +229,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://akotokia.github.io/tags/monitoring/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/blog/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/blog/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/tags/sensitivity/</loc>
@@ -999,18 +1025,6 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/about/</loc>
-  </url><url>
-    <loc>https://akotokia.github.io/categories/_c1f1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/categories/_c1f1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/categories/_c1f1/"
-                />
   </url><url>
     <loc>https://akotokia.github.io/docs/</loc>
     <xhtml:link
