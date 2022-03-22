@@ -31,6 +31,22 @@
     </item>
     
     <item>
+      <title>Blog: Residue Assignment in Crystallographic Protein Electron Density Maps With 3D Convolutional Networks</title>
+      <link>https://akotokia.github.io/ja/blog/article/godo2022rac/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/article/godo2022rac/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Godo, A., Aoki, K., Nakagawa, A., and Yagi, Y. (2022). Residue Assignment in Crystallographic Protein Electron Density Maps With 3D Convolutional Networks. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;10&lt;/strong&gt;:28760-28772.&lt;/p&gt;
+&lt;p&gt;This work proposes a neural network architecture, called 3D FC-DenseNet, for assigning amino acid labels to X-ray crystallographic electron density maps without relying on the amino acid sequence of proteins. The 3DFC-DenseNet is able to treat the task as a 3D semantic segmentation problem, assigning amino acid labels directly to protein electron density maps. By creating dedicated data sets and models for high, medium and low resolution samples, our method matches the performance of crystallographic toolkits for primary structure assignment at high resolutions. Furthermore, it outperforms them at medium resolution and functions at low resolutions where current toolkits and human ability fails.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2022.3156108&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic</title>
       <link>https://akotokia.github.io/ja/blog/article/wu2021dlm/</link>
       <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
@@ -42,6 +58,22 @@
         &lt;p&gt;Wu, S., Matsuura, T., Okura, F., Makihara, Y., Zhou, C., Aoki, K., Mitsugami, I., and Yagi, Y. (2021). Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:150268-150282.&lt;/p&gt;
 &lt;p&gt;The Mini-Mental State Examination (MMSE) is widely used in clinics to screen for low cognitive status. However, it is limited in that it requires examiners to be present; and has fixed questions that constrain its repeated use. Thus, the MMSE cannot be used as a daily assessment to facilitate early detection of cognitive impairment. To address this issue, we developed an automated system to detect older adults with lower MMSE scores by analyzing performance during a dual task involving stepping and calculation, which can be used repeatedly because its questions were randomly created. Leveraging this advantage, this paper proposes a learning-based method to detect subjects with lower MMSE scores using multiple trials with the dual-task system. We investigated various patterns for effectively combining the features acquired during multiple continuous trials, and analyzed the sensitivity of the number N of trials on detection performance to find the optimal N via experiments. We compared our approach with previous methods and demonstrated the superiority of our strategy. Using the cross-trial feature, our approach achieved an overall performance (sensitivity+specificity) as high as 1.79 for detecting older adults whose MMSE score is equal to or less than 23 (indicate a relatively high probability of dementia), and 1.75 for detecting older adults whose MMSE score is equal to or less than 27 (indicative of a relatively high probability of mild cognitive impairment (MCI)).&lt;/p&gt;
 &lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3126067&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
+      <link>https://akotokia.github.io/ja/blog/proceedings/wu2021edl/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/ja/blog/proceedings/wu2021edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;, (pp. 1895-1901).&lt;/p&gt;
+&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
 
       </description>
     </item>
@@ -72,22 +104,6 @@
         
         
         &lt;p&gt;槌道, 青木, 槇原, 中村, 八木, 西川 (2021). 深度画像認識手法を用いた老化に伴う運動機能低下の検知. &lt;em&gt;情報処理学会 CVIM 研究報告&lt;/em&gt;..&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
-      <link>https://akotokia.github.io/ja/blog/proceedings/wu2021edl/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://akotokia.github.io/ja/blog/proceedings/wu2021edl/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;..&lt;/p&gt;
-&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
-&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
 
       </description>
     </item>
@@ -723,20 +739,6 @@
         
         
         &lt;p&gt;河西, 青木, 長橋 (2014). 反応拡散系を制御空間とする 3D モデルの自律的な動作 獲得. &lt;em&gt;情報処理学会 MVE 研究報告&lt;/em&gt;..&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: 時空間特徴と教師なし学習を用いた製造機械の異常動作シー ンの抽出</title>
-      <link>https://akotokia.github.io/ja/blog/domestic/kobayashi2014b/</link>
-      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://akotokia.github.io/ja/blog/domestic/kobayashi2014b/</guid>
-      <description>
-        
-        
-        &lt;p&gt;小林, 青木, 長橋 (2014). 時空間特徴と教師なし学習を用いた製造機械の異常動作シー ンの抽出. &lt;em&gt;電子情報通信学会技術研究報告&lt;/em&gt;..&lt;/p&gt;
 
       </description>
     </item>

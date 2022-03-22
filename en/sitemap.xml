@@ -40,7 +40,7 @@
                 />
   </url><url>
     <loc>https://akotokia.github.io/blog/proceedings/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -153,6 +153,123 @@
                 href="https://akotokia.github.io/blog/"
                 />
   </url><url>
+    <loc>https://akotokia.github.io/tags/amino-acids/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/amino-acids/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/amino-acids/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/buildings/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/buildings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/buildings/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/image-resolution/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/image-resolution/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/image-resolution/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/neural-networks/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/neural-networks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/neural-networks/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/proteins/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/proteins/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/proteins/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/blog/article/godo2022rac/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/article/godo2022rac/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/article/godo2022rac/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/solid-modeling/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/solid-modeling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/solid-modeling/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/three-dimensional-displays/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/three-dimensional-displays/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/three-dimensional-displays/"
+                />
+  </url><url>
     <loc>https://akotokia.github.io/tags/arithmetic/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -257,19 +374,6 @@
                 href="https://akotokia.github.io/tags/standards/"
                 />
   </url><url>
-    <loc>https://akotokia.github.io/tags/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/"
-                />
-  </url><url>
     <loc>https://akotokia.github.io/tags/task-analysis/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -281,6 +385,84 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://akotokia.github.io/tags/task-analysis/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/data-mining/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/data-mining/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/data-mining/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/blog/proceedings/wu2021edl/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/blog/proceedings/wu2021edl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/blog/proceedings/wu2021edl/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/machine-learning/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/machine-learning/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/sensitivity-and-specificity/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/sensitivity-and-specificity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/sensitivity-and-specificity/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/skeleton/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/skeleton/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/skeleton/"
+                />
+  </url><url>
+    <loc>https://akotokia.github.io/tags/tools/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://akotokia.github.io/ja/tags/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://akotokia.github.io/tags/tools/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/categories/_e030/</loc>
@@ -307,97 +489,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://akotokia.github.io/blog/article/aoki2021pfd/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/tags/data-mining/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/data-mining/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/data-mining/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/blog/proceedings/wu2021edl/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/blog/proceedings/wu2021edl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/blog/proceedings/wu2021edl/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/tags/machine-learning/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/machine-learning/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/tags/sensitivity-and-specificity/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/sensitivity-and-specificity/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/sensitivity-and-specificity/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/tags/skeleton/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/skeleton/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/skeleton/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/tags/three-dimensional-displays/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/three-dimensional-displays/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/three-dimensional-displays/"
-                />
-  </url><url>
-    <loc>https://akotokia.github.io/tags/tools/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://akotokia.github.io/ja/tags/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://akotokia.github.io/tags/tools/"
                 />
   </url><url>
     <loc>https://akotokia.github.io/tags/cognition/</loc>

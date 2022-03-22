@@ -31,6 +31,22 @@
     </item>
     
     <item>
+      <title>Blog: Residue Assignment in Crystallographic Protein Electron Density Maps With 3D Convolutional Networks</title>
+      <link>https://akotokia.github.io/blog/article/godo2022rac/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/article/godo2022rac/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Godo, A., Aoki, K., Nakagawa, A., and Yagi, Y. (2022). Residue Assignment in Crystallographic Protein Electron Density Maps With 3D Convolutional Networks. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;10&lt;/strong&gt;:28760-28772.&lt;/p&gt;
+&lt;p&gt;This work proposes a neural network architecture, called 3D FC-DenseNet, for assigning amino acid labels to X-ray crystallographic electron density maps without relying on the amino acid sequence of proteins. The 3DFC-DenseNet is able to treat the task as a 3D semantic segmentation problem, assigning amino acid labels directly to protein electron density maps. By creating dedicated data sets and models for high, medium and low resolution samples, our method matches the performance of crystallographic toolkits for primary structure assignment at high resolutions. Furthermore, it outperforms them at medium resolution and functions at low resolutions where current toolkits and human ability fails.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2022.3156108&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Detecting Lower MMSE Scores in Older Adults using Cross-trial Features from a Dual-task with Gait and Arithmetic</title>
       <link>https://akotokia.github.io/blog/article/wu2021dlm/</link>
       <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
@@ -47,6 +63,22 @@
     </item>
     
     <item>
+      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
+      <link>https://akotokia.github.io/blog/proceedings/wu2021edl/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akotokia.github.io/blog/proceedings/wu2021edl/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;, (pp. 1895-1901).&lt;/p&gt;
+&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network</title>
       <link>https://akotokia.github.io/blog/article/aoki2021pfd/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
@@ -58,22 +90,6 @@
         &lt;p&gt;Aoki, K., Nishikawa, H., Makihara, Y., Muramatsu, D., Takemura, N., and Yagi, Y. (2021). Physical Fatigue Detection from Gait Cycles via a Multi-task Recurrent Neural Network. &lt;em&gt;IEEE Access&lt;/em&gt;, &lt;strong&gt;9&lt;/strong&gt;:127565-127575.&lt;/p&gt;
 &lt;p&gt;This paper describes a deep learning approach to classify physically fatigued and non-fatigued gait cycles via a recurrent neural network (RNN), where each gait cycle is represented as a time series of three-dimensional coordinates of body joints. Gait cycles inherently have large intra-class variations caused by gait stance differences (e.g., which foot is supporting/swinging) at the beginning of each gait cycle, which makes it difficult to identify subtle differences induced by fatigue. To overcome these difficulties, we introduce a supporting foot-aware RNN model in a multi-task learning framework for better fatigue detection. More specifically, the RNN model has two branches of layers: one is assigned to the main task of fatigue classification and the other is assigned to the auxiliary task of estimating the first supporting foot in the gait cycles. We collected physically fatigued and non-fatigued gait cycles from eight subjects and conducted experiments to evaluate the accuracies of the proposed multi-task model in comparison to a single-task model. As a result, the proposed method achieved an overall area under curve (AUC) of 0.860 for fatigue classification in a leave-one-subject-out cross-validation, and an AUC of 0.915 in a leave-one-day-out evaluation. It can be concluded from the experimental results that a fatigue detection system for daily use, especially for screening purposes, is very feasible on the basis of the proposed approach.&lt;/p&gt;
 &lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/ACCESS.2021.3110841&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network</title>
-      <link>https://akotokia.github.io/blog/proceedings/wu2021edl/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://akotokia.github.io/blog/proceedings/wu2021edl/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Wu, S., Okura, F., Makihara, Y., Aoki, K., Niwa, M., and Yagi, Y. (2021). Early Detection of Low Cognitive Scores from Dual-task Performance Data Using a Spatio-temporal Graph Convolutional Neural Network. &lt;em&gt;Proc. Ann. Int. Conf. IEEE Eng. Med. Biol. Soc.&lt;/em&gt;..&lt;/p&gt;
-&lt;p&gt;Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score $\leq$ 23 or score $\leq$ 27). Our evaluation is based on 171 subjects from 6 different senior citizens&#39; facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores.&lt;/p&gt;
-&lt;p&gt;[&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9630304&#34;&gt;DOI&lt;/a&gt;]&lt;/p&gt;
 
       </description>
     </item>
