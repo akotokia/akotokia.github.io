@@ -2,6 +2,8 @@ baseURL: https://akotokia.github.io/
 languageCode: en-us
 title: aoki, kota
 
+theme: hermit-v2
+
 copyright: aoki, kota
 enableEmoji: true
 
